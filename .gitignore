@@ -1,0 +1,23 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+# Future local model and cache artifacts; canonical educational data stays tracked.
+.cache/
+.nltk_data/
+models/
+.streamlit/secrets.toml
+
+# Generated releases and local validation scratch; measured workshop JSON stays tracked.
+dist/
+work/
+

@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0.0",
+  "path_base": "data/",
+  "description": "Canonical Markdown content inventory. Metadata and benchmark files are validation artifacts, not retrieval documents.",
+  "academic_documents": [
+    {
+      "document_id": "HCE-DOC01",
+      "filename": "academic_documents/01_student_academic_regulations.md",
+      "title": "Student Academic Regulations",
+      "category": "academic_regulations",
+      "description": "Program-wide rules linking course participation, assessment and academic records.",
+      "canonical_fact_areas": [
+        "/program",
+        "/attendance_policy",
+        "/examination",
+        "/academic_calendar"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC02",
+      "filename": "academic_documents/02_btech_cse_curriculum.md",
+      "title": "B.Tech CSE Curriculum",
+      "category": "course_catalog",
+      "description": "Complete compact curriculum with course codes, credits and semester placement.",
+      "canonical_fact_areas": [
+        "/program",
+        "/courses"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC03",
+      "filename": "academic_documents/03_semester_course_structure.md",
+      "title": "Semester Course Structure",
+      "category": "semester_structure",
+      "description": "Semester membership and delivery modes, with emphasis on the AI/NLP sequence.",
+      "canonical_fact_areas": [
+        "/program/semesters",
+        "/courses",
+        "/academic_calendar/terms"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC04",
+      "filename": "academic_documents/04_nlp_syllabus.md",
+      "title": "Natural Language Processing Syllabus",
+      "category": "course_syllabus",
+      "description": "Five-unit NLP syllabus and its language representation pathway.",
+      "canonical_fact_areas": [
+        "/courses",
+        "/nlp_topic_taxonomy",
+        "/faculty",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "comparison",
+        "summarization",
+        "direct_fact_retrieval"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC05",
+      "filename": "academic_documents/05_machine_learning_syllabus.md",
+      "title": "Machine Learning Syllabus",
+      "category": "course_syllabus",
+      "description": "Predictive learning, evaluation and neural foundations preceding NLP and Deep Learning.",
+      "canonical_fact_areas": [
+        "/courses",
+        "/faculty",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "comparison",
+        "summarization",
+        "direct_fact_retrieval"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC06",
+      "filename": "academic_documents/06_deep_learning_syllabus.md",
+      "title": "Deep Learning Syllabus",
+      "category": "course_syllabus",
+      "description": "Neural architecture and representation-learning themes building on Machine Learning.",
+      "canonical_fact_areas": [
+        "/courses",
+        "/faculty",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "comparison",
+        "summarization",
+        "direct_fact_retrieval"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC07",
+      "filename": "academic_documents/07_academic_calendar.md",
+      "title": "Academic Calendar",
+      "category": "academic_calendar",
+      "description": "Odd/even term windows, academic milestones and the fixed NLP examination date.",
+      "canonical_fact_areas": [
+        "/academic_calendar",
+        "/institution/academic_year",
+        "/courses"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC08",
+      "filename": "academic_documents/08_attendance_policy.md",
+      "title": "Attendance Policy",
+      "category": "attendance_policy",
+      "description": "The single attendance threshold, shortage consequences and record corrections.",
+      "canonical_fact_areas": [
+        "/attendance_policy",
+        "/examination/eligibility"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC09",
+      "filename": "academic_documents/09_examination_regulations.md",
+      "title": "Examination Regulations",
+      "category": "examination_regulations",
+      "description": "Shared assessment weights, pass conditions, grade bands and recovery distinctions.",
+      "canonical_fact_areas": [
+        "/examination",
+        "/attendance_policy"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC10",
+      "filename": "academic_documents/10_laboratory_guidelines.md",
+      "title": "Laboratory Guidelines",
+      "category": "laboratory_guidelines",
+      "description": "Laboratory participation, records, experiments, demonstrations and responsible conduct.",
+      "canonical_fact_areas": [
+        "/laboratory_policy",
+        "/attendance_policy",
+        "/examination",
+        "/courses"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC11",
+      "filename": "academic_documents/11_placement_faq.md",
+      "title": "Placement FAQ",
+      "category": "placement_faq",
+      "description": "Preparation access and recruitment registration in the fictional placement framework.",
+      "canonical_fact_areas": [
+        "/placement_policy",
+        "/program",
+        "/examination/grading"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC12",
+      "filename": "academic_documents/12_student_handbook.md",
+      "title": "Student Handbook",
+      "category": "student_handbook",
+      "description": "An orientation to the program and the academic documents students should consult.",
+      "canonical_fact_areas": [
+        "/institution",
+        "/program",
+        "/attendance_policy",
+        "/laboratory_policy",
+        "/placement_policy",
+        "/academic_calendar"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC13",
+      "filename": "academic_documents/13_course_prerequisites.md",
+      "title": "Course Prerequisites",
+      "category": "course_prerequisites",
+      "description": "Complete dependency register distinguishing prior courses from concurrent theory/lab partners.",
+      "canonical_fact_areas": [
+        "/courses",
+        "/program/semesters"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    },
+    {
+      "document_id": "HCE-DOC14",
+      "filename": "academic_documents/14_faculty_course_information.md",
+      "title": "Faculty Course Information",
+      "category": "faculty_information",
+      "description": "Fictional roster and explicit faculty-to-course assignments.",
+      "canonical_fact_areas": [
+        "/faculty",
+        "/courses"
+      ],
+      "intended_workshop_uses": [
+        "tfidf_search",
+        "semantic_search",
+        "rag",
+        "direct_fact_retrieval",
+        "summarization"
+      ]
+    }
+  ],
+  "question_papers": [
+    {
+      "document_id": "NLP-P01",
+      "filename": "question_papers/nlp_question_paper_01.md",
+      "title": "NLP Previous Question Paper 01",
+      "category": "question_papers",
+      "description": "Undated synthetic NLP end-semester paper with twelve compulsory five-mark questions.",
+      "canonical_fact_areas": [
+        "/question_paper_design",
+        "/nlp_topic_taxonomy",
+        "/courses",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "question_paper_analysis",
+        "question_filtering",
+        "tfidf_search",
+        "semantic_search"
+      ]
+    },
+    {
+      "document_id": "NLP-P02",
+      "filename": "question_papers/nlp_question_paper_02.md",
+      "title": "NLP Previous Question Paper 02",
+      "category": "question_papers",
+      "description": "Undated synthetic NLP end-semester paper with twelve compulsory five-mark questions.",
+      "canonical_fact_areas": [
+        "/question_paper_design",
+        "/nlp_topic_taxonomy",
+        "/courses",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "question_paper_analysis",
+        "question_filtering",
+        "tfidf_search",
+        "semantic_search"
+      ]
+    },
+    {
+      "document_id": "NLP-P03",
+      "filename": "question_papers/nlp_question_paper_03.md",
+      "title": "NLP Previous Question Paper 03",
+      "category": "question_papers",
+      "description": "Undated synthetic NLP end-semester paper with twelve compulsory five-mark questions.",
+      "canonical_fact_areas": [
+        "/question_paper_design",
+        "/nlp_topic_taxonomy",
+        "/courses",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "question_paper_analysis",
+        "question_filtering",
+        "tfidf_search",
+        "semantic_search"
+      ]
+    },
+    {
+      "document_id": "NLP-P04",
+      "filename": "question_papers/nlp_question_paper_04.md",
+      "title": "NLP Previous Question Paper 04",
+      "category": "question_papers",
+      "description": "Undated synthetic NLP end-semester paper with twelve compulsory five-mark questions.",
+      "canonical_fact_areas": [
+        "/question_paper_design",
+        "/nlp_topic_taxonomy",
+        "/courses",
+        "/examination"
+      ],
+      "intended_workshop_uses": [
+        "question_paper_analysis",
+        "question_filtering",
+        "tfidf_search",
+        "semantic_search"
+      ]
+    }
+  ],
+  "derived_sample_pdfs": [
+    {
+      "document_id": "HCE-PDF04",
+      "filename": "sample_pdfs/04_nlp_syllabus.pdf",
+      "title": "Natural Language Processing Syllabus",
+      "category": "derived_teaching_pdf",
+      "canonical_document_id": "HCE-DOC04",
+      "canonical_filename": "academic_documents/04_nlp_syllabus.md",
+      "canonical_source_sha256": "0083a0435e17bf508799cf4d6b3a54f1f259eb904e3a45e3a0890c87cc0a787f",
+      "intended_workshop_uses": [
+        "pdf_extraction",
+        "document_cleaning",
+        "chunking",
+        "provenance"
+      ]
+    },
+    {
+      "document_id": "HCE-PDF08",
+      "filename": "sample_pdfs/08_attendance_policy.pdf",
+      "title": "Attendance Policy",
+      "category": "derived_teaching_pdf",
+      "canonical_document_id": "HCE-DOC08",
+      "canonical_filename": "academic_documents/08_attendance_policy.md",
+      "canonical_source_sha256": "ab84817c4f8701a6c4beef2a3e024d40c12c9b05a35bc6ac4d011d154d901548",
+      "intended_workshop_uses": [
+        "pdf_extraction",
+        "document_cleaning",
+        "chunking",
+        "provenance"
+      ]
+    },
+    {
+      "document_id": "HCE-PDF09",
+      "filename": "sample_pdfs/09_examination_regulations.pdf",
+      "title": "Examination Regulations",
+      "category": "derived_teaching_pdf",
+      "canonical_document_id": "HCE-DOC09",
+      "canonical_filename": "academic_documents/09_examination_regulations.md",
+      "canonical_source_sha256": "bf675dfc860c1b1173ac1d44f63a1c7ce8efc423a1247da82dd1df798ccf4716",
+      "intended_workshop_uses": [
+        "pdf_extraction",
+        "document_cleaning",
+        "chunking",
+        "provenance"
+      ]
+    }
+  ]
+}

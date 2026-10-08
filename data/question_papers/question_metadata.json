@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.0.0",
+  "is_fictional": true,
+  "disclaimer": "Synthetic educational data created for NLP workshop purposes.",
+  "usage": "Ground truth for dataset validation and analyzer evaluation only. Application analysis must extract questions, identify topics and compute frequencies from Markdown paper text independently; never load these labels or target frequencies as user-facing analysis.",
+  "counting_unit": "One primary topic per top-level question slot; no sub-question double counting. Secondary related topics may be annotated but do not count toward these targets.",
+  "paper_files": {
+    "NLP-P01": "question_papers/nlp_question_paper_01.md",
+    "NLP-P02": "question_papers/nlp_question_paper_02.md",
+    "NLP-P03": "question_papers/nlp_question_paper_03.md",
+    "NLP-P04": "question_papers/nlp_question_paper_04.md"
+  },
+  "questions": [
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q1",
+      "question_text": "Describe the encoder and decoder roles in a Transformer architecture, emphasizing how information passes between its main components.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q2",
+      "question_text": "Calculate IDF using ln(N/DF) for a term occurring in 2 of 8 documents, and explain what the resulting weight represents.",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q3",
+      "question_text": "Explain how dense word representations differ from assigning each vocabulary item an unrelated one-hot coordinate.",
+      "marks": 5,
+      "primary_topic_id": "word_embeddings",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q4",
+      "question_text": "Explain how self-attention assigns different relevance to tokens when constructing a contextual representation.",
+      "marks": 5,
+      "primary_topic_id": "attention",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q5",
+      "question_text": "Compare stemming and lemmatization as text-normalization choices, using the forms 'study', 'studied' and 'studying' to illustrate the goal.",
+      "marks": 5,
+      "primary_topic_id": "text_preprocessing",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q6",
+      "question_text": "Calculate cosine similarity for vectors (1, 1, 0) and (1, 0, 1), showing the dot product and vector lengths.",
+      "marks": 5,
+      "primary_topic_id": "cosine_similarity",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q7",
+      "question_text": "Explain why positional information is needed in a Transformer when token representations are processed without a recurrent chain.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q8",
+      "question_text": "Explain how TF-IDF distinguishes a word frequent in one document from a word frequent throughout a collection.",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": [
+        "bag_of_words"
+      ]
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q9",
+      "question_text": "Describe the mechanism that weights different token positions when forming a representation, rather than treating every context word as equally important.",
+      "marks": 5,
+      "primary_topic_id": "attention",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q10",
+      "question_text": "Explain the distributional training idea of Word2Vec and how local context provides learning evidence.",
+      "marks": 5,
+      "primary_topic_id": "word2vec",
+      "secondary_topic_ids": [
+        "word_embeddings"
+      ]
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q11",
+      "question_text": "Construct Bag of Words count vectors for 'students study language' and 'students study data' using one shared vocabulary.",
+      "marks": 5,
+      "primary_topic_id": "bag_of_words",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P01",
+      "question_id": "Q12",
+      "question_text": "Illustrate Continuous Bag of Words training with a short context window, identifying the surrounding-word input and the target word to predict.",
+      "marks": 5,
+      "primary_topic_id": "cbow",
+      "secondary_topic_ids": [
+        "word2vec"
+      ]
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q1",
+      "question_text": "Compare Transformer processing with recurrent processing in terms of token relationships and opportunities for parallel computation.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q2",
+      "question_text": "Compare raw term counts with term frequency inverse document frequency when ranking short course descriptions.",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": [
+        "bag_of_words"
+      ]
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q3",
+      "question_text": "Discuss how distributional context can place related words near each other in a learned word-vector space.",
+      "marks": 5,
+      "primary_topic_id": "word_embeddings",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q4",
+      "question_text": "Compare the two predictive directions used by Word2Vec while focusing on their common goal of learning word representations.",
+      "marks": 5,
+      "primary_topic_id": "word2vec",
+      "secondary_topic_ids": [
+        "word_embeddings",
+        "cbow",
+        "skip_gram"
+      ]
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q5",
+      "question_text": "Analyze a text-cleaning plan that removes all short common words, explaining why preserving negation may matter for a language task.",
+      "marks": 5,
+      "primary_topic_id": "text_preprocessing",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q6",
+      "question_text": "Explain why comparing vector angles can reduce the effect of document length relative to comparing unnormalized dot products.",
+      "marks": 5,
+      "primary_topic_id": "cosine_similarity",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q7",
+      "question_text": "Illustrate the role of residual connections and feed-forward blocks in a Transformer layer.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q8",
+      "question_text": "Calculate TF-IDF for a term with raw term frequency 3, document frequency 2 and collection size 10, using TF multiplied by ln(N/DF).",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q9",
+      "question_text": "Illustrate the roles of queries, keys and values in an attention mechanism for a short sequence.",
+      "marks": 5,
+      "primary_topic_id": "attention",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q10",
+      "question_text": "Explain how BERT uses surrounding context to represent a token and why that differs from a static word vector.",
+      "marks": 5,
+      "primary_topic_id": "bert",
+      "secondary_topic_ids": [
+        "transformers",
+        "language_models"
+      ]
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q11",
+      "question_text": "Explain why a count-vector representation cannot distinguish 'students explain models' from 'models explain students' when their vocabularies match.",
+      "marks": 5,
+      "primary_topic_id": "bag_of_words",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P02",
+      "question_id": "Q12",
+      "question_text": "Illustrate Skip-Gram training by identifying how a target word is used to predict surrounding context words.",
+      "marks": 5,
+      "primary_topic_id": "skip_gram",
+      "secondary_topic_ids": [
+        "word2vec"
+      ]
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q1",
+      "question_text": "Discuss how an encoder-decoder Transformer connects an input sequence with an output sequence while retaining distinct component roles.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q2",
+      "question_text": "Discuss why a term present in every document receives zero IDF under the unsmoothed ln(N/DF) definition.",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q3",
+      "question_text": "Compare a single static embedding for a word with its need for different meanings across sentence contexts.",
+      "marks": 5,
+      "primary_topic_id": "word_embeddings",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q4",
+      "question_text": "Discuss why the choice of context window influences the relationships learned by a word2vec model.",
+      "marks": 5,
+      "primary_topic_id": "word2vec",
+      "secondary_topic_ids": [
+        "word_embeddings"
+      ]
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q5",
+      "question_text": "Propose token boundaries for 'human-language methods in HCE-CSE603' and explain how handling hyphens changes the units represented.",
+      "marks": 5,
+      "primary_topic_id": "tokenization",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q6",
+      "question_text": "Describe next-token prediction as a language-modeling objective and distinguish a likely continuation from a verified factual statement.",
+      "marks": 5,
+      "primary_topic_id": "language_models",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q7",
+      "question_text": "Analyze the architectural purpose of multiple representation layers in a Transformer without equating layer count with guaranteed accuracy.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q8",
+      "question_text": "Analyze how adding documents containing a previously rare term changes its inverse document frequency when that term becomes more prevalent.",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q9",
+      "question_text": "Compare a single attention head with multi-head attention in terms of the relationships represented.",
+      "marks": 5,
+      "primary_topic_id": "attention",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q10",
+      "question_text": "Describe masked language modeling in Bidirectional Encoder Representations from Transformers and its connection to contextual learning.",
+      "marks": 5,
+      "primary_topic_id": "bert",
+      "secondary_topic_ids": [
+        "transformers",
+        "language_models"
+      ]
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q11",
+      "question_text": "List the bigrams in 'students study natural language' and explain what local order they retain compared with individual word counts.",
+      "marks": 5,
+      "primary_topic_id": "n_grams",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P03",
+      "question_id": "Q12",
+      "question_text": "Explain how two sentences with different vocabulary may express related meaning, and state why a numerical similarity score still needs interpretation.",
+      "marks": 5,
+      "primary_topic_id": "semantic_similarity",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q1",
+      "question_text": "Differentiate an encoder-only Transformer from an encoder-decoder arrangement in terms of how each uses the input representation.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q2",
+      "question_text": "Describe the role of term weighting in reducing the influence of common collection-wide words, using TF-IDF as the example.",
+      "marks": 5,
+      "primary_topic_id": "tf_idf",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q3",
+      "question_text": "Illustrate how word-vector geometry can express a relationship between vocabulary items, and state a limitation of interpreting closeness.",
+      "marks": 5,
+      "primary_topic_id": "word_embeddings",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q4",
+      "question_text": "Describe how Word2Vec training differs from constructing a term-count vector directly from a document.",
+      "marks": 5,
+      "primary_topic_id": "word2vec",
+      "secondary_topic_ids": [
+        "word_embeddings",
+        "bag_of_words"
+      ]
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q5",
+      "question_text": "Differentiate word segmentation from merely splitting a string at spaces, using punctuation and a course code as examples.",
+      "marks": 5,
+      "primary_topic_id": "tokenization",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q6",
+      "question_text": "Compare predicting a missing token from surrounding context with predicting the next token from preceding context as language-model objectives.",
+      "marks": 5,
+      "primary_topic_id": "language_models",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q7",
+      "question_text": "Describe how the Transformer model combines positional information with interactions among tokens to represent a sentence.",
+      "marks": 5,
+      "primary_topic_id": "transformers",
+      "secondary_topic_ids": [
+        "attention"
+      ]
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q8",
+      "question_text": "Describe why distributed representations share information across vocabulary items rather than treating every word as an independent symbolic index.",
+      "marks": 5,
+      "primary_topic_id": "word_embeddings",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q9",
+      "question_text": "Analyze how relevance-weighted combinations of token information can relate distant positions without carrying context through every intervening step.",
+      "marks": 5,
+      "primary_topic_id": "attention",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q10",
+      "question_text": "Discuss the encoder-oriented role of a BERT model without assuming that it is an unrestricted next-token text generator.",
+      "marks": 5,
+      "primary_topic_id": "bert",
+      "secondary_topic_ids": [
+        "transformers",
+        "language_models"
+      ]
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q11",
+      "question_text": "Compare unigram and trigram representations in terms of context retained and the number of possible observed sequences.",
+      "marks": 5,
+      "primary_topic_id": "n_grams",
+      "secondary_topic_ids": []
+    },
+    {
+      "paper_id": "NLP-P04",
+      "question_id": "Q12",
+      "question_text": "Describe meaning-based retrieval of a course description when the query uses a paraphrase rather than the course's exact title.",
+      "marks": 5,
+      "primary_topic_id": "semantic_search",
+      "secondary_topic_ids": [
+        "semantic_similarity"
+      ]
+    }
+  ]
+}

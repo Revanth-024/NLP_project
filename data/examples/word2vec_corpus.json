@@ -1,0 +1,2198 @@
+{
+  "schema_version": "1.0",
+  "institution": "Hindu College of Engineering",
+  "is_fictional": true,
+  "disclaimer": "Synthetic educational data created for NLP workshop purposes.",
+  "derivation": "Existing course names + descriptions and academic-document prose. Markdown headings/tables, repeated disclaimer and institution boilerplate removed; bullet markers stripped; sentence-like spans split at punctuation before uppercase text; spans under six whitespace words omitted; exact duplicates removed in source order. Not an authoritative fact source or benchmark ground truth. No generated repetitions, questions or expected answers.",
+  "source_files": [
+    "data/search_corpus/course_descriptions.csv",
+    "data/academic_documents/01_student_academic_regulations.md",
+    "data/academic_documents/02_btech_cse_curriculum.md",
+    "data/academic_documents/03_semester_course_structure.md",
+    "data/academic_documents/04_nlp_syllabus.md",
+    "data/academic_documents/05_machine_learning_syllabus.md",
+    "data/academic_documents/06_deep_learning_syllabus.md",
+    "data/academic_documents/07_academic_calendar.md",
+    "data/academic_documents/08_attendance_policy.md",
+    "data/academic_documents/09_examination_regulations.md",
+    "data/academic_documents/10_laboratory_guidelines.md",
+    "data/academic_documents/11_placement_faq.md",
+    "data/academic_documents/12_student_handbook.md",
+    "data/academic_documents/13_course_prerequisites.md",
+    "data/academic_documents/14_faculty_course_information.md"
+  ],
+  "sentences": [
+    {
+      "text": "Programming Fundamentals: Procedural programming develops step-by-step solutions using variables, decisions, repetition and functions, with attention to tracing and debugging small programs.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Object-Oriented Programming: Object-based software design organizes state and behaviour into classes, exploring encapsulation, inheritance and reusable abstractions for structured applications.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Discrete Mathematics: Mathematical structures for computing connect logic, sets, relations and graph reasoning to precise statements about finite computational problems.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Data Structures: Organizing collections through lists, stacks, queues, trees and related structures supports efficient storage, access and modification of program data.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Database Management Systems: Relational data organization uses schemas, structured queries and integrity constraints to store linked records and maintain consistent information during updates.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Probability and Statistics: Mathematical treatment of uncertainty combines probability distributions, summary statistics and inference to interpret variable observations and reason about evidence.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Design and Analysis of Algorithms: Systematic algorithm design compares strategies for solving computational problems and evaluates their resource costs as input sizes change.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Operating Systems: System software coordinates processes, memory and shared resources so concurrent programs can run safely while using underlying computing hardware.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Computer Networks: Protocols and layered architectures that enable digital devices to exchange data over connected systems.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Software Engineering: Disciplined software development connects requirements, design, testing and maintenance to the construction of dependable applications by collaborating teams.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Linear Algebra for Computing: Vector spaces, matrices and linear transformations provide mathematical tools for representing numerical observations and reasoning about computations in multiple dimensions.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Artificial Intelligence: Intelligent problem solving examines search, knowledge representation and reasoning methods for choosing actions under specified goals and constraints.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Machine Learning: Data-driven methods that learn patterns from examples to make predictions on unseen observations.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Data Engineering: Data preparation workflows organize, clean and transform collections into dependable inputs for downstream analytical systems, emphasizing consistency across processing stages.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Compiler Design: Translation of programming languages connects lexical analysis, syntax and semantic checking to the construction of representations suitable for execution.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Information Retrieval: Retrieval of relevant items from document collections examines representations, ranking and evaluation, linking information needs with indexed textual evidence.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Natural Language Processing: Computational methods for processing, understanding and generating human language through symbolic, statistical and contextual representations.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Deep Learning: Multilayer neural methods for learning hierarchical representations from data, building on Machine Learning.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Computer Vision: Visual pattern interpretation applies learned representations to images, considering recognition tasks and evaluation of predictions from visual observations.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "Distributed Systems: Cooperating processes across multiple machines coordinate computation while reasoning about communication, consistency and failures in shared systems.",
+      "source": "data/search_corpus/course_descriptions.csv"
+    },
+    {
+      "text": "These regulations describe the synthetic B.Tech Computer Science and Engineering program for academic year 2026-2027 in the Department of Computer Science and Engineering.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The institution is situated in the invented teaching location of Velmora, Teralin Learning District.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Its degree duration is 4 years across 8 semesters.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The compact curriculum is an educational design and does not claim accreditation or equivalence to a real institution's regulations.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The curriculum identifies courses by stable codes rather than informal nicknames.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "A course's semester indicates its normal place in the program.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Credits express its contribution to the academic record; marks express performance in an assessment.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "A laboratory is a separate course with its own code and credits, even when it is closely connected to a theory subject.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Listed electives are the fixed choices of this synthetic cohort, not a menu of additional unlisted subjects.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Students should consult the semester course structure alongside the prerequisite register when preparing their study plan.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Prerequisites describe earlier courses that supply necessary foundations.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Corequisites identify theory subjects studied in the same semester as their associated laboratories.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Treating a corequisite as an earlier prerequisite would misrepresent the intended sequence.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The register supplies the complete declared relationships; an omitted relationship must not be invented from a similarity between course names.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Different cohorts attend odd semesters together and even semesters together.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The academic calendar therefore contains two terms within one academic year, rather than eight consecutive teaching periods.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "It specifies registration milestones and examination windows.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Only the NLP course has a separately fixed examination date.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Dates for other individual courses, or future reassessments, should not be inferred from the first day of an examination window.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The minimum attendance is 75% in each enrolled course.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "It applies to theory, laboratories, projects and seminars separately.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Attendance is the proportion of held scheduled sessions that the student attended, evaluated without rounding the percentage upward.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "A strong attendance record in one course does not cancel a shortage in another.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Students with insufficient participation are ineligible for the affected course's end-semester evaluation.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "There is no condonation route in this synthetic policy.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Approved leave does not automatically count as classroom participation.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "A verified recording error may be corrected because it changes the underlying record, not the required threshold.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "A shortage requires re-enrollment at the next offering.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Internal assessment marks cannot waive attendance eligibility, and completed laboratory records do not create an exception to the general rule.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The course has 100 total marks: 40 internal assessment marks and 60 end-semester marks.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Passing requires at least 50 total marks and at least 24 end-semester marks.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Both conditions apply together; there is no separate internal minimum.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Attendance eligibility remains a separate requirement.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Internal assessment consists of a 20-mark midterm assessment and 20 marks of continuous coursework.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Written examinations support theory courses, while practical demonstrations and viva support laboratory assessment.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Projects and seminars use progress review, portfolio work and a final demonstration or viva.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "These different modes use the same numerical scheme; they do not introduce alternative passing totals.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "An eligible student who fails either pass condition may take reassessment at the next announced opportunity.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The present calendar does not specify that date.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Attendance ineligibility is a different situation from an eligible student's unsuccessful examination performance, and its recovery rule is re-enrollment rather than an assumed reassessment entitlement.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Absolute grade bands are applied only after the pass requirements are satisfied.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Recorded final marks are whole numbers.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "An F grade carries zero grade points.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Attendance ineligibility is recorded as NE and withholds the semester GPA until the course is completed.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The GPA is a credit-weighted mean; credits and grade points therefore have distinct roles.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "For a detailed participation decision, consult the Attendance Policy.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "For grade bands and assessment conditions, consult Examination Regulations.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "For experiment records and demonstrations, use Laboratory Guidelines.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "The calendar supplies dates, while syllabi supply course content.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "Together these documents describe one academic world without making every document reproduce every rule in full.",
+      "source": "data/academic_documents/01_student_academic_regulations.md"
+    },
+    {
+      "text": "B.Tech Computer Science and Engineering (B.Tech CSE) spans four years and eight semesters in the Department of Computer Science and Engineering.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The curriculum below contains 47 courses totaling 160 credits.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "It describes the fixed synthetic cohort for 2026-2027; it is not a real accreditation document.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Theory subjects, laboratories, seminars, projects and fixed electives have distinct roles but contribute to the same program.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The first semester develops programming, mathematical and digital foundations alongside communication and design practice.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Its studio introduces the habit of explaining a technical artifact, while the laboratory connects program tracing with actual execution.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The second semester extends programming into object-based organization and adds discrete mathematical reasoning, computer organization and further mathematics.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The technical communication seminar accompanies this shift from individual exercises toward explaining structured technical work.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The third semester develops data organization, relational information and the mathematical treatment of uncertainty.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Data Structures and Database Management Systems each have a distinct laboratory for practical exploration.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The fourth semester turns toward computing systems and collaborative development.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Operating Systems and Computer Networks examine different layers of execution and communication.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Software Engineering connects program design with development practices, while Linear Algebra for Computing prepares later numerical representations.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The fifth semester establishes the main AI pathway.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Artificial Intelligence emphasizes intelligent problem solving, while Machine Learning introduces prediction from examples.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Data Engineering and Theory of Computation provide contrasting perspectives.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "A software project and the ML laboratory connect these themes with artifacts and observations.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The sixth semester brings language-centered applications into focus.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "NLP uses earlier AI and ML foundations; Information Retrieval supplies a related view of relevance and ranking.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Compiler Design, Responsible Computing and the research seminar broaden the context in which language and data systems are studied.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The seventh semester develops multilayer neural methods and visual interpretation while retaining systems and security perspectives.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Deep Learning has its own laboratory.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Capstone Project I follows the earlier software project and research seminar rather than replacing their preparatory roles.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The final semester contains Applied AI Systems and Cloud Computing Fundamentals as the cohort's fixed electives.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Professional Practice and Industry Practice Project accompany Capstone Project II.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Project II depends on Project I, preserving the declared two-stage capstone relationship.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Computer Networks (HCE-CSE402): Protocols and layered architectures that enable digital devices to exchange data over connected systems.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Machine Learning (HCE-CSE502): Data-driven methods that learn patterns from examples to make predictions on unseen observations.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Natural Language Processing (HCE-CSE603): Computational methods for processing, understanding and generating human language through symbolic, statistical and contextual representations.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Deep Learning (HCE-CSE701): Multilayer neural methods for learning hierarchical representations from data, building on Machine Learning.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The table gives placement and workload, not the complete syllabus or a list of registration exceptions.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Detailed ML, NLP and Deep Learning content appears in the respective syllabus documents.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The prerequisite register distinguishes earlier preparation from same-semester theory/lab pairing.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "An assigned faculty member appears only where the fact contract provides one; course availability does not imply that the dataset names every instructor.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The shared storyline runs from numerical preparation through predictive learning to language representations and deeper neural models.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Related course names should not be interpreted as identical objectives.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Information Retrieval studies relevance over collections, while NLP studies language representations and processing.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "Computer Networks concerns communication between devices, whereas language courses concern representations of human communication.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "These contrasts make the curriculum useful for both direct lookup and meaning-based discovery.",
+      "source": "data/academic_documents/02_btech_cse_curriculum.md"
+    },
+    {
+      "text": "The B.Tech Computer Science and Engineering program has eight semesters over four years.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Each semester contributes 20 credits in this compact synthetic design.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Academic year 2026-2027 serves several cohorts at once: Semesters 1, 3, 5 and 7 are in the odd term; Semesters 2, 4, 6 and 8 are in the even term.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "A student's own progression remains sequential even though the institution teaches several semester numbers concurrently.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The tables emphasize delivery and course identity.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "A theory course and its laboratory are separately assessed courses, not two names for one subject.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Projects and seminars use practical delivery without becoming laboratory courses.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The word elective records the fixed choice for this cohort; it does not authorize substitution with an unlisted course.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Machine Learning appears in Semester 5 as HCE-CSE502 with four credits.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Artificial Intelligence is a different four-credit course in that semester.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The Machine Learning Laboratory is HCE-CSE505 with two credits and takes the theory course as a same-semester corequisite.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The semester also includes Theory of Computation, Data Engineering and Software Engineering Project, so predictive learning sits within a broader computing curriculum.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Natural Language Processing is HCE-CSE603 in Semester 6 with four credits.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Its laboratory, HCE-CSE605, contributes two credits.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Information Retrieval is adjacent in the same semester, creating a connection between language representation and ranking evidence.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The NLP course requires prior Artificial Intelligence and Machine Learning; it is not placed after Deep Learning in the declared sequence.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Deep Learning is HCE-CSE701 in Semester 7 with four credits.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The two-credit Deep Learning Laboratory is HCE-CSE705.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Machine Learning and Linear Algebra for Computing provide its prerequisites.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Computer Vision, Information Security, Distributed Systems and Capstone Project I complete this semester's structure.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Consult Course Prerequisites for dependencies and Faculty Course Information for named assignments.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The calendar defines term dates and examination windows; this register does not invent individual exam dates.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "The distinction between a semester register and a syllabus prevents a table of course names from being treated as a complete account of what every subject teaches.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "When comparing a lab with its theory subject, retain both codes in notes and searches.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Separate identifiers make it possible to retrieve the correct course's credit count and evaluation mode without conflating related academic records.",
+      "source": "data/academic_documents/03_semester_course_structure.md"
+    },
+    {
+      "text": "Computational methods for processing, understanding and generating human language through symbolic, statistical and contextual representations.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Earlier-course prerequisites: Artificial Intelligence (HCE-CSE501); Machine Learning (HCE-CSE502).",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The related course is Natural Language Processing Laboratory (HCE-CSE605), a 2-credit laboratory in Semester 6.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The theory course is its same-semester corequisite, not an earlier prerequisite.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The laboratory's own earlier prerequisites are Artificial Intelligence (HCE-CSE501); Machine Learning (HCE-CSE502).",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Prepare text and explain representation choices.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Construct count-based and weighted language representations.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Explain sequence context, attention and Transformer representations.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Evaluate semantic similarity and retrieval experiments.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Topics: Text normalization; Stop words; Stemming and lemmatization; Text Preprocessing; Tokenization.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Text preparation begins with the decisions that turn a raw string into a usable sequence.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Students consider capitalization, punctuation and spacing alongside text normalization.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Tokenization establishes the units that later representations count or encode.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Stop words, stemming and lemmatization are examined as choices with consequences rather than operations that should be applied automatically.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "An abbreviated course notice and a complete sentence can lose different information when cleaned in the same way.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The unit connects visible changes in the text to the task being attempted.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Topics: Vocabulary; One-hot encoding; Term and document frequency; Bag of Words; N-Grams; TF-IDF; Cosine Similarity.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "A vocabulary supplies a shared coordinate system for a collection.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "One-hot encoding identifies individual terms; Bag of Words counts their occurrences while setting aside order.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "N-Grams retain short sequences and therefore preserve some local context.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Term frequency and document frequency support TF-IDF, where frequent words within one document are interpreted alongside their prevalence across the collection.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Cosine Similarity compares vector direction rather than simply rewarding a long document.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Students discuss what a count-based representation can capture and what it loses when two passages use different words for related ideas.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Topics: Embedding geometry; Distributional context; Word vector evaluation; Word Embeddings; Word2Vec; CBOW; Skip-Gram.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Distributed word representations place vocabulary items in a dense numerical space rather than allocating an independent coordinate to every word.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The unit connects Word Embeddings with patterns of distributional context.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Word2Vec is considered through its two training directions: CBOW uses surrounding context to predict a target, while Skip-Gram starts with a target to predict nearby words.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Vector geometry supports comparisons among learned words, but closeness does not automatically prove synonymy.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Evaluation asks whether a representation captures useful relationships for a particular language task and where a single representation per word misses contextual variation.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Topics: Sequence context; Recurrent model intuition; Contextual representations; Masked language modeling; Autoregressive / next-token language modeling; GPT; Language Models; Attention; Transformers; BERT.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Sequence models introduce the importance of surrounding tokens and their order.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Recurrent model intuition provides a point of comparison for contextual representations.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Attention assigns differing relevance to parts of a sequence when constructing a representation; Transformers organize these operations into an architecture that can relate distant positions.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "BERT introduces an encoder-oriented contextual representation and masked language modeling.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "GPT provides the contrasting decoder-oriented, autoregressive / next-token language modeling approach used for text generation: successive tokens are predicted from preceding context.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The unit distinguishes an architecture from a training objective and a pretrained model family.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Language Models connect token prediction with the use of context, without assuming that fluent text guarantees factual correctness.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Topics: Sentence representations; Retrieval evaluation; Limitations of similarity measures; Semantic Similarity; Semantic Search.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Sentence representations extend the discussion from isolated vocabulary items to complete pieces of text.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Semantic Similarity asks how closely two statements relate in meaning, while Semantic Search uses such representations to retrieve relevant evidence from a collection.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Students connect similarity measures with retrieval evaluation and inspect ambiguous matches rather than treating a high score as a complete explanation.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "A query may use terminology absent from a relevant passage.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Conversely, overlapping words may refer to different academic topics.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The unit emphasizes identifying evidence, explaining ranking behaviour and stating the limitations of the chosen representation.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Students should be able to explain how a representation changes the information available to a language task, compare count-based and distributed approaches, and interpret semantic retrieval evidence with appropriate limitations.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The course connects Machine Learning methods with language applications.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Retrieval-Augmented Generation is a subsequent workshop application, not a sixth formal syllabus unit.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Internal assessment contains a 20-mark midterm and 20 marks of continuous coursework.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Written end-semester assessment is used for this theory course.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "The associated laboratory uses the same marking scheme with practical demonstration and viva.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Refer to Examination Regulations for grade bands and Attendance Policy for eligibility; no additional course-specific pass threshold is introduced here.",
+      "source": "data/academic_documents/04_nlp_syllabus.md"
+    },
+    {
+      "text": "Data-driven methods that learn patterns from examples to make predictions on unseen observations.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Earlier-course prerequisites: Probability and Statistics (HCE-CSE303); Design and Analysis of Algorithms (HCE-CSE304); Linear Algebra for Computing (HCE-CSE404).",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "The related course is Machine Learning Laboratory (HCE-CSE505), a 2-credit laboratory in Semester 5.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "The laboratory's own earlier prerequisites are Probability and Statistics (HCE-CSE303); Linear Algebra for Computing (HCE-CSE404).",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Train and evaluate predictive models with suitable metrics.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Explain feature preparation and model validation.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Topics: Learning paradigms; Features and labels; Training and test partitions.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Learning foundations distinguish supervised tasks with labels from unsupervised exploration of structure.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Features describe observations, while labels specify the target when one is available.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Training and test partitions separate model construction from later evaluation.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "The unit makes clear that success on examples used during learning is not sufficient evidence of generalization.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Students describe the prediction problem before deciding whether a model family is appropriate.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Topics: Linear regression; Logistic regression; Decision trees; Nearest neighbours.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Supervised prediction connects linear regression with numerical targets and logistic regression with class decisions.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Decision trees and nearest neighbours offer contrasting ways to organize predictions.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "The emphasis is on what information a model uses and how its assumptions affect outputs.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Classification and regression share the use of examples but produce different kinds of decisions.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Feature preparation is interpreted in relation to the task, not treated as an unrelated preprocessing ritual.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Topics: Cross-validation; Classification metrics; Bias and variance; Regularization.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Evaluation and generalization use cross-validation and classification metrics to inspect performance beyond a single score.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Bias and variance provide a vocabulary for discussing underfitting and overfitting, while regularization controls excessive adaptation to particular training observations.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Data leakage is examined as a failure of experimental design rather than a mysterious property of the model.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Students compare the evidence supporting a result with the conclusion being claimed.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Topics: Clustering; Principal component analysis; Distance measures.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Unsupervised learning considers clustering and principal component analysis as different ways to explore observations without supplied prediction labels.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Distance measures influence which samples appear related.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Clusters summarize patterns in a chosen representation; they are not automatically meaningful categories.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Dimensionality reduction changes the coordinate view and may preserve some relationships more clearly than others.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Interpretation should therefore connect the numerical result with the question that motivated the analysis.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Topics: Perceptron; Gradient descent; Basic multilayer networks; Responsible model use.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "The neural learning introduction uses the perceptron and basic multilayer networks to connect predictions with adjustable parameters.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Gradient descent supplies the idea of incremental improvement through an objective.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "The treatment prepares students for later Deep Learning without making this course a complete study of large neural architectures.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Responsible model use includes explaining limitations and examining whether evaluation justifies applying a model to observations unlike those used for training.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Students should be able to describe a learning task, select an appropriate evaluation approach, distinguish feature preparation from model fitting, and recognize unsupported claims caused by overfitting or leakage.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "NLP later applies predictive and representational ideas to language.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Deep Learning develops multilayer neural methods more extensively.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Those connections do not make the three courses interchangeable.",
+      "source": "data/academic_documents/05_machine_learning_syllabus.md"
+    },
+    {
+      "text": "Multilayer neural methods for learning hierarchical representations from data, building on Machine Learning.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Earlier-course prerequisites: Machine Learning (HCE-CSE502); Linear Algebra for Computing (HCE-CSE404).",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The related course is Deep Learning Laboratory (HCE-CSE705), a 2-credit laboratory in Semester 7.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The laboratory's own earlier prerequisites are Machine Learning (HCE-CSE502); Linear Algebra for Computing (HCE-CSE404).",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Train neural networks and diagnose generalization issues.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Compare convolutional, recurrent and attention-based architectures.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Multilayer perceptrons compose successive transformations into representations used for prediction.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Forward propagation describes the flow from inputs to outputs, while backpropagation relates an objective to changes in parameters.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The discussion distinguishes model structure from the procedure used to fit it.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Machine Learning supplies the earlier concepts of examples, generalization and evaluation; Linear Algebra for Computing supplies the vector and matrix language used to describe transformations.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Optimization concerns how parameters are adjusted during learning.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Regularization addresses excessive adaptation to the available observations.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "A small training error can coexist with poor behaviour on new data, so the course examines model evaluation alongside the training process.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Students explain learning choices and their consequences rather than interpreting every change in a loss curve as evidence of a better deployed model.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The emphasis remains on the approved major topics, without adding a separate institutional benchmark requirement.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Convolutional neural networks organize computations around local patterns and shared transformations.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "This offers a useful connection to Computer Vision, another Semester 7 course, while the two subjects retain different focuses.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Deep Learning examines the neural architecture and representation-learning perspective; Computer Vision concerns visual interpretation tasks.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Comparisons should account for the kind of input and evaluation problem rather than assuming that every neural network architecture suits every observation.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Recurrent networks provide a way to carry information along a sequence.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Attention-based architectures offer another view of relationships between positions.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "These themes connect with the contextual language representations encountered in NLP during Semester 6.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "NLP is not declared as a prerequisite for this course; its appearance earlier in the curriculum is a conceptual connection, not an extra registration rule.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The comparison helps students explain why the same family of methods can appear in different application-oriented subjects.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Model evaluation examines the evidence supporting a neural system's predictions.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Students distinguish successful learning on a particular collection from a claim of universal understanding.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Representations are interpreted through the task and data used to construct them.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The associated laboratory provides a setting for observing trained behaviour and explaining an artifact during practical assessment.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "No named model, computing platform or commercial service is mandated by this synthetic syllabus.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Students should be able to explain forward and backward propagation, connect optimization with model fitting, discuss regularization and generalization, and compare convolutional, recurrent and attention-based architectures.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The topic headings above organize the approved major topics for reading; they are not a newly defined five-unit contract.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "Deep Learning shares predictive evaluation with Machine Learning and contextual representation ideas with NLP, while concentrating on multilayer neural methods.",
+      "source": "data/academic_documents/06_deep_learning_syllabus.md"
+    },
+    {
+      "text": "The four-year B.Tech CSE program contains eight semesters, but those semesters are not compressed into one year's calendar.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Different cohorts attend different stages concurrently.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The odd term serves Semesters 1, 3, 5 and 7; the even term serves Semesters 2, 4, 6 and 8.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Machine Learning therefore belongs to the odd-term Semester 5 cohort, NLP to the even-term Semester 6 cohort, and Deep Learning to the odd-term Semester 7 cohort.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Dates below are inclusive and written in ISO form so a date can be distinguished from a course code or semester number.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "A date range indicates an institutional window, not a separate appointment for every course.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "These distinctions support grounded answers when a student asks about an individual subject rather than the term as a whole.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Natural Language Processing (HCE-CSE603), Semester 6, has its end-semester examination on 2027-05-07.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "This date lies inside the even-term end-semester examination window.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "It is the only separately fixed course examination date in this contract.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The syllabus provides the five units included in the course; the calendar provides the scheduled date, not the syllabus content.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Its laboratory examinations run from 2027-04-26 through 2027-04-30.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The NLP laboratory belongs to this term, but no individual practical appointment is specified.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "A response to a lab-date query should therefore report the window and identify the limit of available scheduling detail.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Laboratory examinations follow the teaching-end milestone, and written end-semester examinations follow the laboratory window.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The semester break begins after end-semester examinations finish.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Records and coursework are due at the stated term milestone; the laboratory guidelines explain what belongs in an experiment record.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Project-specific milestones name their course codes so they are not mistaken for a deadline applying to every student.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The odd-term break ends before the even term commences.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The even-term break is the last listed period of this academic year.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "The next academic year's commencement is not defined here, and the day after a break must not be presented as a separately approved future commencement date.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Reassessment opportunities are announced separately; this calendar does not supply dates for them.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "An examination date does not by itself establish a student's eligibility.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Attendance Policy determines participation eligibility, and Examination Regulations define the passing scheme.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "A question about both NLP content and its examination needs the NLP Syllabus together with this calendar.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "A question about another course's individual exam date cannot be answered more precisely than the approved term window.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "All date claims in this document are derived from the canonical academic calendar.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "No weekday, examination duration, room assignment or alternate sitting has been added.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Keeping those details unspecified is preferable to inventing a precise but unsupported schedule.",
+      "source": "data/academic_documents/07_academic_calendar.md"
+    },
+    {
+      "text": "Students must maintain at least 75% attendance in each enrolled course.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The requirement applies separately to theory courses, laboratories, projects and seminars.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Classroom participation in one subject cannot be transferred to another subject's attendance record.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "There is one institutional threshold; laboratory participation does not use an additional or reduced percentage.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Attendance eligibility refers to participation in scheduled sessions that were actually held.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "It is not a score on an assignment and it is not the total number of credits registered.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "When discussing a shortage, identify the affected course and the underlying session record.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "A general statement that a student attends college regularly is insufficient to establish eligibility in every subject.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The attendance percentage is the number of attended scheduled sessions divided by the number of held scheduled sessions, multiplied by 100.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Compare the unrounded result with the minimum.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Rounding a lower value upward for display does not make it eligible.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The relevant denominator is held sessions, not all dates printed in a calendar or an assumed total from a different course.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "For an illustrative arithmetic example, attending 15 of 20 held sessions gives 75% and reaches the threshold.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Attending 14 of those same 20 sessions does not.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "These counts explain the rule; they are not a mandated number of sessions for a semester.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Course timetables and total session counts are not specified in the fact contract.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "A percentage below the minimum is an attendance shortage.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The student is ineligible for that course's end-semester evaluation.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "This includes a written examination, laboratory practical, project demonstration or seminar evaluation according to the course's delivery mode.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Good performance in continuous coursework does not cancel a shortage.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Internal marks alone cannot waive the participation requirement.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Reaching the attendance minimum permits end-semester evaluation under the policy; it does not establish that a student will meet the examination pass conditions.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Conversely, an estimated high examination score does not establish eligibility before the participation rule is satisfied.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Examination Regulations explain the marks needed to pass after eligibility is established.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "No condonation is available in this synthetic policy.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Approved leave does not automatically count as an attended session.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Approval recognizes an absence but does not change the meaning of attendance or create a second percentage for exceptional cases.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The policy does not define discretionary reductions, paid exemptions or separate attendance bands.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "A student may request correction of an attendance recording error.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "A verified correction changes the record of what happened; it does not relax the threshold.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The distinction matters when interpreting a claim that an attendance issue was resolved: correcting an incorrectly recorded session is different from approving a genuine shortage.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The contract does not specify an application deadline or a named office for corrections, so neither should be inferred from this document.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "An attendance shortage requires re-enrollment in the affected course at its next offering and compliance with the same rule.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "A reassessment opportunity for an eligible student who failed an examination is a different recovery path.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The present policy does not announce the next course offering date or allow one recovery path to substitute for the other.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Laboratory Guidelines use this same attendance rule and explain records, experiments and demonstrations.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Student Academic Regulations summarize how participation connects with evaluation.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "The calendar supplies teaching and examination periods but cannot resolve a personal attendance record.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "These related documents support the policy without adding exceptions to it.",
+      "source": "data/academic_documents/08_attendance_policy.md"
+    },
+    {
+      "text": "Every course uses one numerical evaluation structure.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Internal assessment contributes 40 marks and end-semester evaluation contributes 60 marks, making 100 marks in total.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "The internal allocation contains 20 marks for midterm assessment and 20 marks for continuous coursework.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "The same weights apply to theory, laboratory, project and seminar courses even though the evidence used to assess them differs.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Marks and credits must not be confused.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Credits describe how a course contributes to the program and the credit-weighted GPA.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Assessment marks describe performance within that course.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "A two-credit laboratory still uses the shared 100-mark scheme; it is not evaluated out of a smaller total simply because it has fewer credits than its related theory course.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "End-semester eligibility follows Attendance Policy: at least 75% attendance in the affected course.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "The policy specifies no other examination eligibility conditions.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Laboratory records and experiment completion contribute to continuous coursework, rather than introducing an additional eligibility threshold.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Attendance shortage is recorded as NE; good internal marks do not override it.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "To pass, a student must obtain at least 50 total marks and at least 24 end-semester marks.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "There is no separate internal minimum.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "A combined total that reaches the pass total cannot compensate for an end-semester score below its required minimum.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Likewise, reaching the end-semester minimum does not remove the overall-total condition.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "For an arithmetic illustration, 30 internal marks and 24 end-semester marks give a total of 54 and meet both numerical conditions.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "A combination of 40 internal and 20 end-semester marks reaches a total of 60 but fails the end-semester condition.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "A combination of 20 internal and 24 end-semester marks meets the component minimum but falls below the required overall total.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "These examples assume attendance eligibility; they do not replace it.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Theory courses use a written midterm, coursework and a written end-semester examination.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Laboratories use a midterm practical, continuous records and experiments, and an end-semester practical demonstration with viva.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Projects and seminars use progress review and a continuous portfolio, followed by a final demonstration or viva.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "These delivery-specific modes explain how a learner presents work; they do not create different mark totals or pass conditions.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "The NLP previous-paper collection contains four synthetic 60-mark end-semester papers.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Each has twelve five-mark questions with all questions compulsory.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Those paper marks represent the end-semester component only, not an extra assessment added to the 100-mark course total.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "The papers do not announce examination duration or historical sitting dates.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Apply the following bands only after both numerical pass requirements are met:",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Failure carries grade F and zero grade points.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "An ineligible course has status NE and withholds the semester GPA until the course is completed.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "GPA is the credit-weighted mean of grade points, with F contributing zero.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "A high combined mark cannot be assigned a passing grade when the end-semester pass condition has failed.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "An eligible student who fails either pass requirement may take reassessment at the next announced opportunity.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "No reassessment date is defined in the present academic calendar.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Attendance shortage requires re-enrollment at the next offering under the participation policy, rather than an assumed reassessment entitlement.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Use the calendar for approved windows and the specifically fixed NLP examination date.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Other individual course dates remain unspecified.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Course syllabi describe content, while these regulations describe the shared evaluation structure.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "A response involving both content and timing should consult both kinds of record.",
+      "source": "data/academic_documents/09_examination_regulations.md"
+    },
+    {
+      "text": "Laboratories connect an academic method with observable inputs, procedures and results.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "They are separately coded courses in the synthetic curriculum, even when they accompany a theory subject.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The related theory course is studied concurrently as a corequisite.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Earlier-course preparation is listed separately in Course Prerequisites; the two relationships should not be merged.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The AI pathway includes Machine Learning Laboratory (HCE-CSE505) in Semester 5, Natural Language Processing Laboratory (HCE-CSE605) in Semester 6, and Deep Learning Laboratory (HCE-CSE705) in Semester 7.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Each carries two credits and is linked to its corresponding four-credit theory course.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "These examples do not imply that all other courses have an associated laboratory or that every laboratory has a named faculty assignment in the dataset.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Laboratory attendance uses the same 75% per-course minimum as the general policy.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "There is no special lab threshold.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Participation is measured against held scheduled sessions without rounding the percentage upward.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Continuous work and a successful demonstration do not waive an attendance shortage.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The attendance document explains corrections, approved absence and re-enrollment after shortage.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "An experiment should make its input and method clear enough that the learner can explain what was observed.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Reading a theory description is not the same as documenting a practical observation.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "These guidelines describe the common record and demonstration requirements; they do not prescribe a numbered experiment list or silently introduce tools and downloads that the workshop has not yet implemented.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Submit a dated record for each assigned experiment, including inputs, method, observations and conclusion, by the term's records milestone.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The record connects a result with the input and method that produced it.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "An observation may be surprising or incomplete; explain it rather than replacing it with an unsupported expected answer.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "A conclusion should state what the particular experiment supports, without claiming that one successful example establishes universal performance.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The calendar's term milestone supplies the due date, so this document does not invent a separate submission date.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Complete every assigned experiment before the end-semester practical; the experiment list will be defined in later laboratory documents.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Demonstrate working results and explain the method during the practical viva; project labs also demonstrate their final artifact.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The demonstration asks the student to connect an artifact with its procedure and results.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "A record provides evidence of practical work, while the viva provides an opportunity to explain choices and limitations.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Projects that use laboratory delivery also demonstrate their final artifact.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Course-specific experiment lists will be introduced later; none are invented in these common guidelines.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Laboratory evaluation uses the shared 100-mark scheme: 40 internal marks and 60 end-semester marks.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Internal assessment comprises a 20-mark midterm practical and 20 marks of continuous records and experiments.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "End-semester assessment uses practical demonstration and viva.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Passing requires at least 50 total marks and at least 24 end-semester marks, alongside attendance eligibility.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Incomplete records or experiments affect continuous coursework marks; they do not introduce a separate examination eligibility threshold.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "This distinction avoids turning a coursework issue into a new attendance exception or a different examination eligibility policy.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "The practical requirements still matter because they form evidence for assessment, even though the general eligibility rule remains unchanged.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Use only instructor-approved datasets and software.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Do not share passwords or include personal data in experiments.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Handle equipment responsibly and report faults.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Acknowledge collaboration while submitting your own explanation of results.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "These common expectations support a safe, explainable practical environment without requiring a commercial platform or specifying a real laboratory address.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "Refer to the academic calendar for laboratory examination windows and record milestones.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "No individual laboratory appointment is fixed in the contract.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "When a question asks for a particular practical date, report the approved window and the absence of a more specific schedule rather than guessing one.",
+      "source": "data/academic_documents/10_laboratory_guidelines.md"
+    },
+    {
+      "text": "This FAQ describes institution-level preparation and recruitment registration for the fictional B.Tech CSE cohort.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "It contains no employer-specific claims, company eligibility rules, salary figures or placement statistics.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Placement support creates opportunities to prepare and present academic work; it is not evidence that a particular employer will recruit from the institution.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Students in Semesters 5 through 8 may register for placement preparation, including students with pending courses.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Preparation and recruitment eligibility are different decisions.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "A student with an unfinished course can still work on a resume or practise explaining a technical project.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Access to those activities does not mean that the same student satisfies the later registration conditions.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "The distinction should be retained when summarizing this FAQ or answering a short question about a pending course.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Recruitment registration is for students in Semesters 7 and 8.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "The minimum CGPA is 6.0, and the maximum permitted number of pending courses is zero.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Required materials are an updated resume, a completed academic record and completed preparation orientation.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "These are the institution's synthetic registration conditions; they do not imply that an external employer has accepted a student.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "The CGPA refers to the credit-weighted grade record described in Examination Regulations.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "It is not an attendance percentage and should not be replaced by a percentage calculated from one examination.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "The pending-course condition is also separate from the CGPA threshold.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Satisfying one condition does not cancel another, and participation in a preparation activity does not waive either one.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "The listed support consists of a resume clinic, aptitude practice and a mock technical interview.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "A resume clinic helps a student present their preparation and project work clearly.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Aptitude practice provides a setting for discussing problem-solving approaches.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "A mock technical interview offers an opportunity to explain technical choices.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "No compulsory number of practice sessions or dated activity schedule is specified in the contract.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Students can use their academic work to explain what they studied and built.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "A Machine Learning experiment may illustrate evaluation choices; an NLP exercise may illustrate language representations; a capstone artifact may illustrate the relationship between a method and its evidence.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "These are examples of how to discuss work, not additional recruitment qualifications or a guarantee that one particular project is required.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "The contact role is the Department placement coordinator.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "No personal name, email address, telephone number or office location is defined.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Faculty Course Information lists course instructors, but an instructor's name must not be repurposed as a placement contact without a canonical assignment.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Keeping the role separate avoids creating fictional contact details that look like real institutional information.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Preparation or eligibility does not guarantee an interview, internship or job.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Eligibility means that the institution's defined registration requirements have been met.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "It is not an offer, an employer shortlist or a promise of salary.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "This dataset deliberately avoids time-sensitive employer information so students can practise retrieval without interpreting invented recruitment claims as current real-world opportunities.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Use the explicit distinction between preparation access and recruitment registration.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "If a question asks about a pending course, preparation remains accessible in the defined semesters, while recruitment requires zero pending courses.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "If it asks for employer policy, a recruitment deadline or a contact address, explain that those facts are not specified.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Do not infer a missing rule from unrelated attendance or examination conditions.",
+      "source": "data/academic_documents/11_placement_faq.md"
+    },
+    {
+      "text": "Hindu College of Engineering is located in the invented town of Velmora within Teralin Learning District.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "This handbook introduces the fictional B.Tech Computer Science and Engineering program for 2026-2027.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Its duration is four years and eight semesters.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The setting exists to support educational experiments; it does not describe a real campus, admissions authority or accredited institution.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The handbook is an orientation rather than a replacement for detailed policies.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "It tells readers which academic record answers a particular kind of question.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "A short summary may omit detail while remaining consistent with the complete rule.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "When a question requires a numerical threshold, a precise date or a prerequisite list, consult the relevant detailed document rather than expanding a brief handbook sentence into a guessed answer.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Early semesters develop programming, mathematical reasoning and data organization.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Systems and software-development courses provide a broader computing foundation.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The later pathway includes Machine Learning in Semester 5, Natural Language Processing in Semester 6 and Deep Learning in Semester 7.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "These subjects are connected but not interchangeable: learning from examples, working with language and building multilayer neural representations have different emphases.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The complete curriculum has 47 courses and 160 credits.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Its listed electives are the fixed choices for this cohort.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The semester register supplies course placement, while Course Prerequisites supplies the declared earlier preparation.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "A laboratory's associated theory subject is a concurrent corequisite, not an extra earlier prerequisite.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Keeping this distinction clear helps readers interpret a course relationship accurately.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Students must satisfy institutional attendance requirements in each enrolled course.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Laboratory and project participation use the general rule, rather than a separate participation standard.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Attendance Policy explains the single minimum, shortage consequences and correction of recording errors.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "A brief statement that a student participates regularly is not enough to decide eligibility without the affected course's record.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Examination Regulations describe the common marking scheme and both numerical pass conditions.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Assessment modes differ across theory, laboratories, projects and seminars, but the scheme remains shared.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Grades are assigned only after pass conditions are met.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Attendance eligibility, marks, grades and credits are related records with distinct meanings, so a result in one should not be used to silently infer another.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Keep the input, method, observations and conclusion connected in an experiment record.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The common guidelines require a dated record for each assigned experiment, completion of assigned work before the practical, and a demonstration with explanation during the viva.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Incomplete work affects continuous coursework; it does not introduce a separate examination eligibility threshold.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Use approved datasets and software, protect passwords and personal information, treat equipment responsibly, and acknowledge collaboration.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "A practical result should be explainable by the student who presents it.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The common guidelines do not yet define detailed experiment lists or mandate a downloaded model.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Those materials belong to later course and workshop activities.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The academic calendar groups odd and even semesters by concurrent cohorts.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "It includes teaching periods, assessment windows, record milestones and breaks.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "The NLP examination has a specific fixed date; other individual course examinations have windows only.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "A semester break does not establish an unlisted future commencement or reassessment appointment.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Placement preparation is available in Semesters 5 through 8, including students with pending courses.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Recruitment registration has separate final-year conditions.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Consult Placement FAQ for the difference rather than assuming preparation access guarantees registration or employment.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Named faculty assignments appear in Faculty Course Information only where the canonical roster defines them.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Use the curriculum for the overall program, the semester register for placement, syllabi for topic content, prerequisites for dependencies, and faculty information for instructors.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Use Attendance Policy for participation, Examination Regulations for evaluation and grading, Laboratory Guidelines for practical work, and the calendar for dates.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "Questions crossing those boundaries may need evidence from more than one document.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "No document should invent a missing fact just to make a response look complete.",
+      "source": "data/academic_documents/12_student_handbook.md"
+    },
+    {
+      "text": "This register separates prerequisites from corequisites for the fictional B.Tech CSE curriculum.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "A prerequisite is an earlier course that supplies declared preparation.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "A corequisite is a course taken in the same semester, such as the theory subject paired with a laboratory.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Similarity between subjects does not create an extra prerequisite.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The lists below contain only the relationships recorded in the canonical contract.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The phrase none specified means that the contract declares no earlier-course requirement for that subject.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "It does not prove that the topic is easy or that outside knowledge is irrelevant.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Likewise, an empty corequisite entry means no same-semester requirement is declared.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The register does not specify registration waivers, equivalence rules or alternate entry routes.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Machine Learning (HCE-CSE502), Semester 5, requires Probability and Statistics (HCE-CSE303), Design and Analysis of Algorithms (HCE-CSE304), and Linear Algebra for Computing (HCE-CSE404).",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "These relationships connect numerical observations, computational reasoning and vector-based representation.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Artificial Intelligence is studied in the same semester but is not listed as a prerequisite for Machine Learning.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Machine Learning Laboratory (HCE-CSE505) has Probability and Statistics and Linear Algebra for Computing as earlier prerequisites.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Machine Learning itself is its same-semester corequisite.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The laboratory's prerequisite list is not assumed to be identical to the theory course's list.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Natural Language Processing (HCE-CSE603), Semester 6, requires Artificial Intelligence (HCE-CSE501) and Machine Learning (HCE-CSE502).",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The language course builds on those earlier subjects but does not require completion of Semester 7 Deep Learning.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "A conceptual connection to neural models should not be converted into an unlisted registration dependency.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Natural Language Processing Laboratory (HCE-CSE605) requires the same two earlier courses and pairs with Natural Language Processing as a corequisite.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Information Retrieval is another Semester 6 subject; its relevance to language search does not make it an earlier prerequisite for NLP.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Deep Learning (HCE-CSE701), Semester 7, requires Machine Learning (HCE-CSE502) and Linear Algebra for Computing (HCE-CSE404).",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Both must be retained when answering what to study beforehand.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The linear algebra requirement remains explicit even though it is also part of Machine Learning's earlier preparation.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Deep Learning Laboratory (HCE-CSE705) lists Machine Learning and Linear Algebra for Computing as earlier prerequisites and Deep Learning as the same-semester corequisite.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "NLP is a useful conceptual connection but is not a declared prerequisite for Deep Learning.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The complete table remains authoritative when a short description mentions only the most prominent dependency.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Capstone Project I follows Software Engineering Project and Research Methods Seminar.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Capstone Project II follows Capstone Project I.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "These links preserve the project's staged preparation without supplying unlisted submission dates or project topics.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "For timing, consult the calendar's course-specific milestones.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "A response should distinguish what the contract requires from what might be helpful background.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "State every listed prerequisite for the requested course and identify same-semester partners separately.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "Do not add requirements because two courses share vocabulary or because a later application combines their methods.",
+      "source": "data/academic_documents/13_course_prerequisites.md"
+    },
+    {
+      "text": "The Department of Computer Science and Engineering maintains a small fictional roster for the AI/NLP storyline and selected retrieval-teaching courses.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "This document gives only the assignments recorded in the canonical contract.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Faculty names are invented for the workshop and do not identify real institutional staff.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "No contact address, office location or personal biography is supplied.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Some courses have no named faculty in the contract.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "That means the dataset leaves the assignment unspecified, not that a course has no instructor or will not be taught.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "A reader must not infer a missing assignment from specialization, course similarity or an instructor's role in another subject.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "The roster is deliberately small so repeated references across syllabi remain easy to inspect.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Veyana Teral teaches Machine Learning and its laboratory in Semester 5.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "That pairing helps a reader connect a predictive-learning syllabus with its practical course without combining their separate codes or credit counts.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "The roster records the two assignments explicitly; it does not authorize assigning this instructor to all courses that discuss prediction.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Nivora Pellin teaches Information Retrieval, Natural Language Processing and the NLP laboratory in Semester 6.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "The specialization connects language processing with retrieval, but each course retains its own purpose and identifier.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "A query about who teaches NLP should return the named NLP assignment rather than selecting any faculty member whose specialization sounds related.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Arveth Solan teaches Deep Learning, Computer Vision and the Deep Learning laboratory in Semester 7.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "The neural and visual themes create useful comparison opportunities with the Semester 5 and 6 subjects.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "They do not imply that NLP is a prerequisite for Deep Learning or that its Semester 6 instructor also teaches the neural course.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Tavira Nolen teaches Artificial Intelligence in Semester 5 and Responsible Computing in Semester 6.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Keshan Velor teaches Computer Networks and its laboratory in Semester 4, and Distributed Systems in Semester 7.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "These cross-semester assignments are part of the roster, not evidence that those courses run in one semester together.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Syllabi explain content, and the calendar determines approved dates.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "A faculty assignment does not create a prerequisite, an exam date or a placement-coordinator appointment.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "The Placement FAQ names only a contact role; none of the instructors here has been assigned that role.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "When course and faculty records overlap, use the stable course code and faculty ID to confirm the relationship.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "A syllabus can cite its instructor while this document presents the full assigned-course list.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    },
+    {
+      "text": "Both views must preserve the same relationship without adding unnamed staff or real-world identities.",
+      "source": "data/academic_documents/14_faculty_course_information.md"
+    }
+  ]
+}

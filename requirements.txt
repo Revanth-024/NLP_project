@@ -1,0 +1,8 @@
+# Only dependencies currently used by the workshop.
+streamlit>=1.40,<2
+pytest>=8,<9
+nltk==3.9.2
+scikit-learn==1.7.2
+gensim==4.4.0
+sentence-transformers==5.1.2
+pypdf==6.10.0

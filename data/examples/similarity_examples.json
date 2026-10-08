@@ -1,0 +1,38 @@
+{
+  "institution": "Hindu College of Engineering",
+  "is_fictional": true,
+  "disclaimer": "Synthetic educational data created for NLP workshop purposes.",
+  "purpose": "Reusable input text only; no algorithm outputs, topic labels or solutions are supplied.",
+  "pairs": [
+    {
+      "id": "SIM-01",
+      "text_a": "The NLP course studies computational treatment of language.",
+      "text_b": "Machines can analyze human communication.",
+      "focus": "Related meaning expressed through different vocabulary."
+    },
+    {
+      "id": "SIM-02",
+      "text_a": "Networks exchange data between digital devices.",
+      "text_b": "Protocols support communication across connected systems.",
+      "focus": "A domain paraphrase with partial lexical overlap."
+    },
+    {
+      "id": "SIM-03",
+      "text_a": "Language models represent patterns in text.",
+      "text_b": "A model of a building represents the campus layout.",
+      "focus": "Shared words with different senses and subject matter."
+    },
+    {
+      "id": "SIM-04",
+      "text_a": "A student writes a laboratory record.",
+      "text_b": "The laboratory record was written by a learner.",
+      "focus": "Reordered phrasing and word-form changes."
+    },
+    {
+      "id": "SIM-05",
+      "text_a": "Students compare neural representations.",
+      "text_b": "Relational schemas organize linked records.",
+      "focus": "Contrasting course concepts rather than repeated policy facts."
+    }
+  ]
+}

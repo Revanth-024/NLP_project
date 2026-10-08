@@ -1,0 +1,415 @@
+{
+  "schema_version": "1.0.0",
+  "usage": "Validation and teaching artifact only. Retrieval and RAG must search document content, not expected references or answers in this file. Chunk IDs are intentionally undefined.",
+  "coverage": "Fifteen unchanged canonical queries plus three supplementary queries for the explicitly requested comparison, unit summary and question filtering coverage.",
+  "benchmarks": [
+    {
+      "benchmark_id": "RET-01",
+      "query": "What attendance percentage is required?",
+      "type": "direct_fact",
+      "expected_document_ids": [
+        "HCE-DOC08"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/attendance_policy/minimum_percent"
+        }
+      ],
+      "teaching_purpose": "Retrieve the single canonical attendance threshold.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-02",
+      "query": "Find the TF-IDF unit in the NLP syllabus.",
+      "type": "lexical_search",
+      "expected_document_ids": [
+        "HCE-DOC04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE603"
+        },
+        {
+          "kind": "topic",
+          "id": "tf_idf"
+        }
+      ],
+      "teaching_purpose": "Establish an exact-term lexical retrieval baseline.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-03",
+      "query": "Which subject teaches computers to interpret human language?",
+      "type": "semantic_search",
+      "expected_document_ids": [
+        "HCE-DOC04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE603"
+        }
+      ],
+      "teaching_purpose": "Retrieve the language-focused course from a paraphrased description.",
+      "semantic_vs_keyword": true,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts.",
+      "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+    },
+    {
+      "benchmark_id": "RET-04",
+      "query": "How much classroom presence do I need to sit my finals?",
+      "type": "semantic_search",
+      "expected_document_ids": [
+        "HCE-DOC08",
+        "HCE-DOC09"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/attendance_policy/minimum_percent"
+        },
+        {
+          "kind": "fact",
+          "id": "/examination/eligibility"
+        }
+      ],
+      "teaching_purpose": "Connect classroom presence and finals with attendance and examination eligibility.",
+      "semantic_vs_keyword": true,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts.",
+      "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+    },
+    {
+      "benchmark_id": "RET-05",
+      "query": "Which class learns to predict outcomes from examples?",
+      "type": "semantic_search",
+      "expected_document_ids": [
+        "HCE-DOC05"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE502"
+        }
+      ],
+      "teaching_purpose": "Retrieve Machine Learning without the course title in the query.",
+      "semantic_vs_keyword": true,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts.",
+      "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+    },
+    {
+      "benchmark_id": "RET-06",
+      "query": "Where do connected devices learn the rules for exchanging messages?",
+      "type": "semantic_search",
+      "expected_document_ids": [
+        "HCE-DOC02"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE402"
+        }
+      ],
+      "teaching_purpose": "Discuss paraphrases and possible ambiguity in semantic retrieval.",
+      "semantic_vs_keyword": true,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts.",
+      "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+    },
+    {
+      "benchmark_id": "RET-07",
+      "query": "What should I study before taking Deep Learning?",
+      "type": "direct_fact",
+      "expected_document_ids": [
+        "HCE-DOC13",
+        "HCE-DOC06"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE701"
+        },
+        {
+          "kind": "course",
+          "id": "HCE-CSE502"
+        },
+        {
+          "kind": "course",
+          "id": "HCE-CSE404"
+        }
+      ],
+      "teaching_purpose": "Return all prerequisites, including Machine Learning and Linear Algebra for Computing.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-08",
+      "query": "How do Machine Learning and Natural Language Processing differ?",
+      "type": "comparison",
+      "expected_document_ids": [
+        "HCE-DOC05",
+        "HCE-DOC04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE502"
+        },
+        {
+          "kind": "course",
+          "id": "HCE-CSE603"
+        }
+      ],
+      "teaching_purpose": "Compare broad predictive learning with language-focused methods using both course descriptions.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-09",
+      "query": "When is the NLP examination and what topics are included?",
+      "type": "cross_document",
+      "expected_document_ids": [
+        "HCE-DOC07",
+        "HCE-DOC04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/academic_calendar/terms/1/course_examinations/HCE-CSE603"
+        },
+        {
+          "kind": "course",
+          "id": "HCE-CSE603"
+        }
+      ],
+      "teaching_purpose": "Combine the specific NLP examination date with its five syllabus units.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-10",
+      "query": "When does Semester 6 begin?",
+      "type": "direct_fact",
+      "expected_document_ids": [
+        "HCE-DOC07"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/academic_calendar/terms/1/commencement"
+        }
+      ],
+      "teaching_purpose": "Map Semester 6 to the even-semester term.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-11",
+      "query": "When are laboratory examinations for Semester 6?",
+      "type": "direct_fact",
+      "expected_document_ids": [
+        "HCE-DOC07"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/academic_calendar/terms/1/laboratory_examinations"
+        }
+      ],
+      "teaching_purpose": "Retrieve a date range rather than inventing an individual lab date.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-12",
+      "query": "How is an NLP course evaluated and what is required to pass?",
+      "type": "direct_fact",
+      "expected_document_ids": [
+        "HCE-DOC09",
+        "HCE-DOC04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE603"
+        },
+        {
+          "kind": "fact",
+          "id": "/examination/schemes/course_standard"
+        }
+      ],
+      "teaching_purpose": "Explain component weights and both pass conditions.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-13",
+      "query": "Summarize what I must submit and demonstrate in a laboratory.",
+      "type": "summarization",
+      "expected_document_ids": [
+        "HCE-DOC10"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/laboratory_policy/record_submission"
+        },
+        {
+          "kind": "fact",
+          "id": "/laboratory_policy/experiment_completion"
+        },
+        {
+          "kind": "fact",
+          "id": "/laboratory_policy/demonstration"
+        }
+      ],
+      "teaching_purpose": "Summarize several requirements without introducing extra conditions.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-14",
+      "query": "Which NLP topics appeared most frequently in previous examinations?",
+      "type": "question_paper_analysis",
+      "expected_document_ids": [
+        "NLP-P01",
+        "NLP-P02",
+        "NLP-P03",
+        "NLP-P04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/question_paper_design/topic_targets"
+        },
+        {
+          "kind": "topic",
+          "id": "transformers"
+        },
+        {
+          "kind": "topic",
+          "id": "tf_idf"
+        }
+      ],
+      "teaching_purpose": "After papers are generated, compute actual counts and compare with targets. Targets alone are not observed historical evidence.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-15",
+      "query": "Can I register for placement preparation if I have a pending course?",
+      "type": "direct_fact",
+      "expected_document_ids": [
+        "HCE-DOC11"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "fact",
+          "id": "/placement_policy/preparation_registration"
+        },
+        {
+          "kind": "fact",
+          "id": "/placement_policy/recruitment_eligibility"
+        }
+      ],
+      "teaching_purpose": "Distinguish preparation access from recruitment eligibility.",
+      "semantic_vs_keyword": false,
+      "origin": "canonical_contract",
+      "evidence_requirement": "Collect support from document content for every expected reference; use all listed sources when combining facts. Paper frequency analysis must use all four paper texts."
+    },
+    {
+      "benchmark_id": "RET-16",
+      "query": "Compare the focus of Machine Learning and Deep Learning.",
+      "type": "comparison",
+      "expected_document_ids": [
+        "HCE-DOC05",
+        "HCE-DOC06"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE502"
+        },
+        {
+          "kind": "course",
+          "id": "HCE-CSE701"
+        }
+      ],
+      "teaching_purpose": "Compare broad predictive methods with multilayer neural representation learning using both syllabi.",
+      "semantic_vs_keyword": false,
+      "origin": "task03_supplementary",
+      "evidence_requirement": "Read and process the listed Markdown content; expected references and metadata are not application answers."
+    },
+    {
+      "benchmark_id": "RET-17",
+      "query": "Summarize Unit 3 of NLP.",
+      "type": "summarization",
+      "expected_document_ids": [
+        "HCE-DOC04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "course",
+          "id": "HCE-CSE603"
+        },
+        {
+          "kind": "topic",
+          "id": "word_embeddings"
+        },
+        {
+          "kind": "topic",
+          "id": "word2vec"
+        },
+        {
+          "kind": "topic",
+          "id": "cbow"
+        },
+        {
+          "kind": "topic",
+          "id": "skip_gram"
+        }
+      ],
+      "teaching_purpose": "Summarize the distributed-word-representation unit from the syllabus rather than the topic target table.",
+      "semantic_vs_keyword": false,
+      "origin": "task03_supplementary",
+      "evidence_requirement": "Read and process the listed Markdown content; expected references and metadata are not application answers."
+    },
+    {
+      "benchmark_id": "RET-18",
+      "query": "Show questions related to transformers.",
+      "type": "question_filtering",
+      "expected_document_ids": [
+        "NLP-P01",
+        "NLP-P02",
+        "NLP-P03",
+        "NLP-P04"
+      ],
+      "expected_canonical_refs": [
+        {
+          "kind": "topic",
+          "id": "transformers"
+        }
+      ],
+      "teaching_purpose": "Extract and filter actual paper questions. Primary Transformer questions and contextually related BERT/attention questions can be distinguished; ground truth is reserved for evaluation.",
+      "semantic_vs_keyword": false,
+      "origin": "task03_supplementary",
+      "evidence_requirement": "Read and process the listed Markdown content; expected references and metadata are not application answers."
+    }
+  ]
+}

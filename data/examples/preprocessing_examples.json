@@ -1,0 +1,61 @@
+{
+  "institution": "Hindu College of Engineering",
+  "is_fictional": true,
+  "disclaimer": "Synthetic educational data created for NLP workshop purposes.",
+  "purpose": "Reusable input text only; no algorithm outputs, topic labels or solutions are supplied.",
+  "examples": [
+    {
+      "id": "PRE-01",
+      "text": "  The NLP laboratory studies TEXT, tokens, and meaning!  ",
+      "focus": [
+        "whitespace",
+        "case",
+        "punctuation",
+        "tokenization"
+      ]
+    },
+    {
+      "id": "PRE-02",
+      "text": "Students are studying; a student studied; we study together.",
+      "focus": [
+        "stemming",
+        "lemmatization",
+        "word forms"
+      ]
+    },
+    {
+      "id": "PRE-03",
+      "text": "The course is about the representation of words in a document.",
+      "focus": [
+        "stop words",
+        "tokenization"
+      ]
+    },
+    {
+      "id": "PRE-04",
+      "text": "Do not remove the word 'not': this example is not an exam rule.",
+      "focus": [
+        "negation",
+        "normalization choices"
+      ]
+    },
+    {
+      "id": "PRE-05",
+      "text": "Human language, human-language patterns, and HCE-CSE603 labels.",
+      "focus": [
+        "hyphens",
+        "course codes",
+        "token boundaries"
+      ]
+    },
+    {
+      "id": "PRE-06",
+      "text": "Learners write records. Learners wrote records. Records were written.",
+      "focus": [
+        "lemmatization",
+        "word forms",
+        "sentence boundaries"
+      ]
+    }
+  ]
+}

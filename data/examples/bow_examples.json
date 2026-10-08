@@ -1,0 +1,46 @@
+{
+  "institution": "Hindu College of Engineering",
+  "is_fictional": true,
+  "disclaimer": "Synthetic educational data created for NLP workshop purposes.",
+  "purpose": "Reusable input text only; no algorithm outputs, topic labels or solutions are supplied.",
+  "collections": [
+    {
+      "id": "BOW-01",
+      "texts": [
+        "students study language",
+        "students study data",
+        "language models study patterns"
+      ],
+      "focus": [
+        "vocabulary",
+        "word counts",
+        "shared terms"
+      ]
+    },
+    {
+      "id": "BOW-02",
+      "texts": [
+        "students explain models",
+        "models explain students"
+      ],
+      "focus": [
+        "word order",
+        "Bag of Words limitation",
+        "N-Grams"
+      ]
+    },
+    {
+      "id": "BOW-03",
+      "texts": [
+        "the laboratory record",
+        "the laboratory record is ready",
+        "a record of the laboratory"
+      ],
+      "focus": [
+        "N-Grams",
+        "stop words",
+        "overlapping phrases"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2150 @@
+{
+  "schema_version": "1.0.0",
+  "synthetic_data": {
+    "is_fictional": true,
+    "required_document_statement": "Synthetic educational data created for NLP workshop purposes.",
+    "required_institution_disclaimer": "Hindu College of Engineering is a completely fictional educational institution created only for this workshop.",
+    "provenance": "Original synthetic design; no real institution policies, curricula, branding or faculty identities are used.",
+    "document_generation_status": "generated_markdown",
+    "generation_rules": [
+      "Reuse this contract for all in-scope academic facts; never invent conflicting facts in documents.",
+      "Include the exact required statement and explicitly describe the institution as fictional in every generated academic document and question paper.",
+      "Add any new in-scope fact to this contract and validate it before document generation.",
+      "Use references for policy values instead of maintaining independent copies.",
+      "Do not infer actual question-paper results from target counts before papers exist."
+    ]
+  },
+  "institution": {
+    "name": "Hindu College of Engineering",
+    "is_fictional": true,
+    "location": {
+      "town": "Velmora",
+      "region": "Teralin Learning District",
+      "setting": "Entirely invented teaching location; not a real town, district or campus address."
+    },
+    "academic_year": "2026-2027",
+    "department": "Computer Science and Engineering"
+  },
+  "program": {
+    "name": "B.Tech Computer Science and Engineering",
+    "abbreviation": "B.Tech CSE",
+    "duration_years": 4,
+    "number_of_semesters": 8,
+    "department": "Computer Science and Engineering",
+    "curriculum_scope": "Compact complete workshop curriculum; not an accreditation claim.",
+    "elective_rule": "Listed electives are the fixed choices in this synthetic cohort; no alternative elective catalog is implied.",
+    "semesters": [
+      {
+        "number": 1,
+        "course_codes": [
+          "HCE-CSE101",
+          "HCE-CSE102",
+          "HCE-CSE103",
+          "HCE-CSE104",
+          "HCE-CSE105",
+          "HCE-CSE106"
+        ]
+      },
+      {
+        "number": 2,
+        "course_codes": [
+          "HCE-CSE201",
+          "HCE-CSE202",
+          "HCE-CSE203",
+          "HCE-CSE204",
+          "HCE-CSE205",
+          "HCE-CSE206"
+        ]
+      },
+      {
+        "number": 3,
+        "course_codes": [
+          "HCE-CSE301",
+          "HCE-CSE302",
+          "HCE-CSE303",
+          "HCE-CSE304",
+          "HCE-CSE305",
+          "HCE-CSE306"
+        ]
+      },
+      {
+        "number": 4,
+        "course_codes": [
+          "HCE-CSE401",
+          "HCE-CSE402",
+          "HCE-CSE403",
+          "HCE-CSE404",
+          "HCE-CSE405",
+          "HCE-CSE406"
+        ]
+      },
+      {
+        "number": 5,
+        "course_codes": [
+          "HCE-CSE501",
+          "HCE-CSE502",
+          "HCE-CSE503",
+          "HCE-CSE504",
+          "HCE-CSE505",
+          "HCE-CSE506"
+        ]
+      },
+      {
+        "number": 6,
+        "course_codes": [
+          "HCE-CSE601",
+          "HCE-CSE602",
+          "HCE-CSE603",
+          "HCE-CSE604",
+          "HCE-CSE605",
+          "HCE-CSE606"
+        ]
+      },
+      {
+        "number": 7,
+        "course_codes": [
+          "HCE-CSE701",
+          "HCE-CSE702",
+          "HCE-CSE703",
+          "HCE-CSE704",
+          "HCE-CSE705",
+          "HCE-CSE706"
+        ]
+      },
+      {
+        "number": 8,
+        "course_codes": [
+          "HCE-CSE801",
+          "HCE-CSE802",
+          "HCE-CSE803",
+          "HCE-CSE804",
+          "HCE-CSE805"
+        ]
+      }
+    ]
+  },
+  "courses": [
+    {
+      "code": "HCE-CSE101",
+      "name": "Programming Fundamentals",
+      "semester": 1,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Procedural programming develops step-by-step solutions using variables, decisions, repetition and functions, with attention to tracing and debugging small programs.",
+      "keywords": [
+        "programming",
+        "functions",
+        "control flow",
+        "debugging"
+      ]
+    },
+    {
+      "code": "HCE-CSE102",
+      "name": "Engineering Mathematics I",
+      "semester": 1,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE103",
+      "name": "Digital Logic",
+      "semester": 1,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE104",
+      "name": "Communication for Engineers",
+      "semester": 1,
+      "credits": 3,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE105",
+      "name": "Programming Fundamentals Laboratory",
+      "semester": 1,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [],
+      "corequisite_course_codes": [
+        "HCE-CSE101"
+      ],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE106",
+      "name": "Engineering Design Studio",
+      "semester": 1,
+      "credits": 3,
+      "course_type": "project",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE201",
+      "name": "Object-Oriented Programming",
+      "semester": 2,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE101"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Object-based software design organizes state and behaviour into classes, exploring encapsulation, inheritance and reusable abstractions for structured applications.",
+      "keywords": [
+        "classes",
+        "objects",
+        "encapsulation",
+        "inheritance"
+      ]
+    },
+    {
+      "code": "HCE-CSE202",
+      "name": "Discrete Mathematics",
+      "semester": 2,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE102"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Mathematical structures for computing connect logic, sets, relations and graph reasoning to precise statements about finite computational problems.",
+      "keywords": [
+        "logic",
+        "sets",
+        "relations",
+        "graphs"
+      ]
+    },
+    {
+      "code": "HCE-CSE203",
+      "name": "Computer Organization",
+      "semester": 2,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE103"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE204",
+      "name": "Engineering Mathematics II",
+      "semester": 2,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE102"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE205",
+      "name": "Object-Oriented Programming Laboratory",
+      "semester": 2,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE101"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE201"
+      ],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE206",
+      "name": "Technical Communication Seminar",
+      "semester": 2,
+      "credits": 2,
+      "course_type": "seminar",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE104"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE301",
+      "name": "Data Structures",
+      "semester": 3,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE201"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Organizing collections through lists, stacks, queues, trees and related structures supports efficient storage, access and modification of program data.",
+      "keywords": [
+        "lists",
+        "stacks",
+        "queues",
+        "trees",
+        "data organization"
+      ]
+    },
+    {
+      "code": "HCE-CSE302",
+      "name": "Database Management Systems",
+      "semester": 3,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE202"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Relational data organization uses schemas, structured queries and integrity constraints to store linked records and maintain consistent information during updates.",
+      "keywords": [
+        "relational data",
+        "schemas",
+        "SQL",
+        "integrity"
+      ]
+    },
+    {
+      "code": "HCE-CSE303",
+      "name": "Probability and Statistics",
+      "semester": 3,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE204"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Mathematical treatment of uncertainty combines probability distributions, summary statistics and inference to interpret variable observations and reason about evidence.",
+      "keywords": [
+        "probability",
+        "statistics",
+        "uncertainty",
+        "inference"
+      ]
+    },
+    {
+      "code": "HCE-CSE304",
+      "name": "Design and Analysis of Algorithms",
+      "semester": 3,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE202",
+        "HCE-CSE201"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Systematic algorithm design compares strategies for solving computational problems and evaluates their resource costs as input sizes change.",
+      "keywords": [
+        "algorithms",
+        "complexity",
+        "efficiency",
+        "problem solving"
+      ]
+    },
+    {
+      "code": "HCE-CSE305",
+      "name": "Data Structures Laboratory",
+      "semester": 3,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE201"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE301"
+      ],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE306",
+      "name": "Database Management Systems Laboratory",
+      "semester": 3,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE202"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE302"
+      ],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE401",
+      "name": "Operating Systems",
+      "semester": 4,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE203",
+        "HCE-CSE301"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "System software coordinates processes, memory and shared resources so concurrent programs can run safely while using underlying computing hardware.",
+      "keywords": [
+        "processes",
+        "memory",
+        "resource management",
+        "concurrency"
+      ]
+    },
+    {
+      "code": "HCE-CSE402",
+      "name": "Computer Networks",
+      "semester": 4,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE203"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-05"
+      ],
+      "description": "Protocols and layered architectures that enable digital devices to exchange data over connected systems.",
+      "keywords": [
+        "protocols",
+        "layered architecture",
+        "data exchange",
+        "networks"
+      ]
+    },
+    {
+      "code": "HCE-CSE403",
+      "name": "Software Engineering",
+      "semester": 4,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE201",
+        "HCE-CSE302"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Disciplined software development connects requirements, design, testing and maintenance to the construction of dependable applications by collaborating teams.",
+      "keywords": [
+        "requirements",
+        "design",
+        "testing",
+        "maintenance"
+      ]
+    },
+    {
+      "code": "HCE-CSE404",
+      "name": "Linear Algebra for Computing",
+      "semester": 4,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE204"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Vector spaces, matrices and linear transformations provide mathematical tools for representing numerical observations and reasoning about computations in multiple dimensions.",
+      "keywords": [
+        "vectors",
+        "matrices",
+        "linear transformations"
+      ]
+    },
+    {
+      "code": "HCE-CSE405",
+      "name": "Operating Systems Laboratory",
+      "semester": 4,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE203",
+        "HCE-CSE301"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE401"
+      ],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE406",
+      "name": "Computer Networks Laboratory",
+      "semester": 4,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE203"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE402"
+      ],
+      "faculty_ids": [
+        "FAC-05"
+      ]
+    },
+    {
+      "code": "HCE-CSE501",
+      "name": "Artificial Intelligence",
+      "semester": 5,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE301",
+        "HCE-CSE303",
+        "HCE-CSE304"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-04"
+      ],
+      "description": "Intelligent problem solving examines search, knowledge representation and reasoning methods for choosing actions under specified goals and constraints.",
+      "keywords": [
+        "search",
+        "knowledge representation",
+        "reasoning",
+        "intelligent systems"
+      ]
+    },
+    {
+      "code": "HCE-CSE502",
+      "name": "Machine Learning",
+      "semester": 5,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE303",
+        "HCE-CSE304",
+        "HCE-CSE404"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-01"
+      ],
+      "description": "Data-driven methods that learn patterns from examples to make predictions on unseen observations.",
+      "learning_objectives": [
+        "Distinguish supervised and unsupervised learning.",
+        "Train and evaluate predictive models with suitable metrics.",
+        "Identify overfitting and data leakage.",
+        "Explain feature preparation and model validation."
+      ],
+      "units": [
+        {
+          "number": 1,
+          "title": "Learning Foundations",
+          "topics": [
+            "Learning paradigms",
+            "Features and labels",
+            "Training and test partitions"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Supervised Prediction",
+          "topics": [
+            "Linear regression",
+            "Logistic regression",
+            "Decision trees",
+            "Nearest neighbours"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Evaluation and Generalization",
+          "topics": [
+            "Cross-validation",
+            "Classification metrics",
+            "Bias and variance",
+            "Regularization"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Unsupervised Learning",
+          "topics": [
+            "Clustering",
+            "Principal component analysis",
+            "Distance measures"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Neural Learning Introduction",
+          "topics": [
+            "Perceptron",
+            "Gradient descent",
+            "Basic multilayer networks",
+            "Responsible model use"
+          ]
+        }
+      ],
+      "laboratory_course_code": "HCE-CSE505",
+      "keywords": [
+        "supervised learning",
+        "classification",
+        "regression",
+        "model evaluation"
+      ]
+    },
+    {
+      "code": "HCE-CSE503",
+      "name": "Theory of Computation",
+      "semester": 5,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE202",
+        "HCE-CSE304"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE504",
+      "name": "Data Engineering",
+      "semester": 5,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE302",
+        "HCE-CSE301"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Data preparation workflows organize, clean and transform collections into dependable inputs for downstream analytical systems, emphasizing consistency across processing stages.",
+      "keywords": [
+        "data preparation",
+        "data workflows",
+        "transformation",
+        "consistency"
+      ]
+    },
+    {
+      "code": "HCE-CSE505",
+      "name": "Machine Learning Laboratory",
+      "semester": 5,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE303",
+        "HCE-CSE404"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE502"
+      ],
+      "faculty_ids": [
+        "FAC-01"
+      ]
+    },
+    {
+      "code": "HCE-CSE506",
+      "name": "Software Engineering Project",
+      "semester": 5,
+      "credits": 2,
+      "course_type": "project",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE403"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE601",
+      "name": "Compiler Design",
+      "semester": 6,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE503"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [],
+      "description": "Translation of programming languages connects lexical analysis, syntax and semantic checking to the construction of representations suitable for execution.",
+      "keywords": [
+        "language translation",
+        "syntax",
+        "semantic checking",
+        "compilers"
+      ]
+    },
+    {
+      "code": "HCE-CSE602",
+      "name": "Information Retrieval",
+      "semester": 6,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE301",
+        "HCE-CSE303"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-02"
+      ],
+      "description": "Retrieval of relevant items from document collections examines representations, ranking and evaluation, linking information needs with indexed textual evidence.",
+      "keywords": [
+        "document retrieval",
+        "ranking",
+        "relevance",
+        "evaluation"
+      ]
+    },
+    {
+      "code": "HCE-CSE603",
+      "name": "Natural Language Processing",
+      "semester": 6,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE501",
+        "HCE-CSE502"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-02"
+      ],
+      "description": "Computational methods for processing, understanding and generating human language through symbolic, statistical and contextual representations.",
+      "learning_objectives": [
+        "Prepare text and explain representation choices.",
+        "Construct count-based and weighted language representations.",
+        "Compare distributed word representations.",
+        "Explain sequence context, attention and Transformer representations.",
+        "Evaluate semantic similarity and retrieval experiments."
+      ],
+      "units": [
+        {
+          "number": 1,
+          "title": "Text Preparation",
+          "topics": [
+            "Text normalization",
+            "Stop words",
+            "Stemming and lemmatization"
+          ],
+          "topic_ids": [
+            "text_preprocessing",
+            "tokenization"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Count-Based Language Representation",
+          "topics": [
+            "Vocabulary",
+            "One-hot encoding",
+            "Term and document frequency"
+          ],
+          "topic_ids": [
+            "bag_of_words",
+            "n_grams",
+            "tf_idf",
+            "cosine_similarity"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Distributed Word Representation",
+          "topics": [
+            "Embedding geometry",
+            "Distributional context",
+            "Word vector evaluation"
+          ],
+          "topic_ids": [
+            "word_embeddings",
+            "word2vec",
+            "cbow",
+            "skip_gram"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Sequence and Contextual Models",
+          "topics": [
+            "Sequence context",
+            "Recurrent model intuition",
+            "Contextual representations",
+            "Masked language modeling",
+            "Autoregressive / next-token language modeling",
+            "GPT"
+          ],
+          "topic_ids": [
+            "language_models",
+            "attention",
+            "transformers",
+            "bert"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Meaning and Retrieval",
+          "topics": [
+            "Sentence representations",
+            "Retrieval evaluation",
+            "Limitations of similarity measures"
+          ],
+          "topic_ids": [
+            "semantic_similarity",
+            "semantic_search"
+          ]
+        }
+      ],
+      "laboratory_course_code": "HCE-CSE605",
+      "keywords": [
+        "text preprocessing",
+        "TF-IDF",
+        "word embeddings",
+        "Transformers",
+        "semantic search"
+      ]
+    },
+    {
+      "code": "HCE-CSE604",
+      "name": "Responsible Computing",
+      "semester": 6,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE403"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-04"
+      ]
+    },
+    {
+      "code": "HCE-CSE605",
+      "name": "Natural Language Processing Laboratory",
+      "semester": 6,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE501",
+        "HCE-CSE502"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE603"
+      ],
+      "faculty_ids": [
+        "FAC-02"
+      ]
+    },
+    {
+      "code": "HCE-CSE606",
+      "name": "Research Methods Seminar",
+      "semester": 6,
+      "credits": 2,
+      "course_type": "seminar",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE303",
+        "HCE-CSE506"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE701",
+      "name": "Deep Learning",
+      "semester": 7,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE502",
+        "HCE-CSE404"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-03"
+      ],
+      "description": "Multilayer neural methods for learning hierarchical representations from data, building on Machine Learning.",
+      "learning_objectives": [
+        "Explain forward and backward propagation.",
+        "Train neural networks and diagnose generalization issues.",
+        "Compare convolutional, recurrent and attention-based architectures."
+      ],
+      "major_topics": [
+        "Multilayer perceptrons",
+        "Backpropagation",
+        "Optimization",
+        "Regularization",
+        "Convolutional neural networks",
+        "Recurrent networks",
+        "Attention-based architectures",
+        "Model evaluation"
+      ],
+      "laboratory_course_code": "HCE-CSE705",
+      "keywords": [
+        "neural networks",
+        "backpropagation",
+        "optimization",
+        "representation learning"
+      ]
+    },
+    {
+      "code": "HCE-CSE702",
+      "name": "Computer Vision",
+      "semester": 7,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE502"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-03"
+      ],
+      "description": "Visual pattern interpretation applies learned representations to images, considering recognition tasks and evaluation of predictions from visual observations.",
+      "keywords": [
+        "images",
+        "visual recognition",
+        "learned representations"
+      ]
+    },
+    {
+      "code": "HCE-CSE703",
+      "name": "Information Security",
+      "semester": 7,
+      "credits": 4,
+      "course_type": "theory",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE402"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE704",
+      "name": "Distributed Systems",
+      "semester": 7,
+      "credits": 4,
+      "course_type": "elective",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE401",
+        "HCE-CSE402"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": [
+        "FAC-05"
+      ],
+      "description": "Cooperating processes across multiple machines coordinate computation while reasoning about communication, consistency and failures in shared systems.",
+      "keywords": [
+        "distributed computation",
+        "coordination",
+        "consistency",
+        "faults"
+      ]
+    },
+    {
+      "code": "HCE-CSE705",
+      "name": "Deep Learning Laboratory",
+      "semester": 7,
+      "credits": 2,
+      "course_type": "lab",
+      "delivery": "laboratory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE502",
+        "HCE-CSE404"
+      ],
+      "corequisite_course_codes": [
+        "HCE-CSE701"
+      ],
+      "faculty_ids": [
+        "FAC-03"
+      ]
+    },
+    {
+      "code": "HCE-CSE706",
+      "name": "Capstone Project I",
+      "semester": 7,
+      "credits": 2,
+      "course_type": "project",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE506",
+        "HCE-CSE606"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE801",
+      "name": "Applied AI Systems",
+      "semester": 8,
+      "credits": 4,
+      "course_type": "elective",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE603",
+        "HCE-CSE701"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE802",
+      "name": "Cloud Computing Fundamentals",
+      "semester": 8,
+      "credits": 4,
+      "course_type": "elective",
+      "delivery": "theory",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE704"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE803",
+      "name": "Professional Practice",
+      "semester": 8,
+      "credits": 2,
+      "course_type": "seminar",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE604"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE804",
+      "name": "Industry Practice Project",
+      "semester": 8,
+      "credits": 4,
+      "course_type": "project",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE706"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    },
+    {
+      "code": "HCE-CSE805",
+      "name": "Capstone Project II",
+      "semester": 8,
+      "credits": 6,
+      "course_type": "project",
+      "delivery": "practical",
+      "assessment_scheme_id": "course_standard",
+      "prerequisites": [
+        "HCE-CSE706"
+      ],
+      "corequisite_course_codes": [],
+      "faculty_ids": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "FAC-01",
+      "name": "Dr. Veyana Teral",
+      "is_fictional": true,
+      "designation": "Associate Professor",
+      "department": "Computer Science and Engineering",
+      "specializations": [
+        "Machine learning",
+        "Predictive modeling"
+      ],
+      "courses_taught": [
+        "HCE-CSE502",
+        "HCE-CSE505"
+      ]
+    },
+    {
+      "id": "FAC-02",
+      "name": "Dr. Nivora Pellin",
+      "is_fictional": true,
+      "designation": "Assistant Professor",
+      "department": "Computer Science and Engineering",
+      "specializations": [
+        "Natural language processing",
+        "Information retrieval"
+      ],
+      "courses_taught": [
+        "HCE-CSE602",
+        "HCE-CSE603",
+        "HCE-CSE605"
+      ]
+    },
+    {
+      "id": "FAC-03",
+      "name": "Dr. Arveth Solan",
+      "is_fictional": true,
+      "designation": "Associate Professor",
+      "department": "Computer Science and Engineering",
+      "specializations": [
+        "Neural representation learning",
+        "Computer vision"
+      ],
+      "courses_taught": [
+        "HCE-CSE701",
+        "HCE-CSE702",
+        "HCE-CSE705"
+      ]
+    },
+    {
+      "id": "FAC-04",
+      "name": "Ms. Tavira Nolen",
+      "is_fictional": true,
+      "designation": "Assistant Professor",
+      "department": "Computer Science and Engineering",
+      "specializations": [
+        "Intelligent systems",
+        "Responsible computing"
+      ],
+      "courses_taught": [
+        "HCE-CSE501",
+        "HCE-CSE604"
+      ]
+    },
+    {
+      "id": "FAC-05",
+      "name": "Mr. Keshan Velor",
+      "is_fictional": true,
+      "designation": "Assistant Professor",
+      "department": "Computer Science and Engineering",
+      "specializations": [
+        "Computer networks",
+        "Distributed systems"
+      ],
+      "courses_taught": [
+        "HCE-CSE402",
+        "HCE-CSE406",
+        "HCE-CSE704"
+      ]
+    }
+  ],
+  "faculty_assignment_scope": "Only the relevant AI/NLP and selected retrieval-teaching courses are assigned faculty. Empty faculty_ids mean unspecified, not unstaffed.",
+  "attendance_policy": {
+    "minimum_percent": 75,
+    "scope": "Each enrolled course separately, including laboratories, projects and seminars.",
+    "measurement": "Attended scheduled sessions divided by held scheduled sessions, multiplied by 100; compare the unrounded percentage with the threshold.",
+    "shortage_definition": "Attendance below minimum_percent in a course.",
+    "shortage_consequence": "Ineligible for that course's end-semester evaluation; internal marks alone do not waive the requirement.",
+    "condonation_available": false,
+    "absence_rule": "Approved leave does not automatically count as attended sessions. Students may request correction of an attendance recording error; verified corrections change the record, not the threshold.",
+    "recovery": "Re-enroll in the affected course at its next offering and meet the same attendance rule."
+  },
+  "examination": {
+    "eligibility": {
+      "attendance_policy_ref": "/attendance_policy",
+      "other_conditions": []
+    },
+    "schemes": {
+      "course_standard": {
+        "total_marks": 100,
+        "internal_assessment_marks": 40,
+        "end_semester_marks": 60,
+        "minimum_total_to_pass": 50,
+        "minimum_end_semester_to_pass": 24,
+        "minimum_internal_to_pass": null,
+        "pass_rule": "Meet both minimum_total_to_pass and minimum_end_semester_to_pass; attendance eligibility is also required.",
+        "internal_components": [
+          {
+            "name": "Midterm assessment",
+            "marks": 20
+          },
+          {
+            "name": "Continuous coursework",
+            "marks": 20
+          }
+        ],
+        "evaluation_modes": {
+          "theory": "Written midterm, coursework and written end-semester examination.",
+          "laboratory": "Midterm practical and continuous records/experiments; end-semester practical demonstration and viva.",
+          "practical": "Midterm progress review and continuous portfolio; end-semester project or seminar demonstration and viva."
+        }
+      }
+    },
+    "failed_course_rule": "An eligible student failing either pass condition may take a reassessment at the next announced opportunity; its date is not defined in this calendar.",
+    "grading": {
+      "basis": "Absolute grading by total marks, after both pass conditions are met.",
+      "bands": [
+        {
+          "minimum_marks": 90,
+          "maximum_marks": 100,
+          "grade": "O",
+          "grade_points": 10
+        },
+        {
+          "minimum_marks": 80,
+          "maximum_marks": 89,
+          "grade": "A+",
+          "grade_points": 9
+        },
+        {
+          "minimum_marks": 70,
+          "maximum_marks": 79,
+          "grade": "A",
+          "grade_points": 8
+        },
+        {
+          "minimum_marks": 60,
+          "maximum_marks": 69,
+          "grade": "B+",
+          "grade_points": 7
+        },
+        {
+          "minimum_marks": 50,
+          "maximum_marks": 59,
+          "grade": "B",
+          "grade_points": 6
+        }
+      ],
+      "failure_grade": "F",
+      "failure_grade_points": 0,
+      "ineligible_status": "NE",
+      "marks_precision": "Final marks are recorded as whole numbers.",
+      "gpa_rule": "Credit-weighted mean of grade points; F contributes zero. NE withholds the semester GPA until the course is completed."
+    }
+  },
+  "academic_calendar": {
+    "date_format": "YYYY-MM-DD",
+    "scope": "One academic year across concurrent cohorts; odd and even semesters run together by parity, not sequentially within one year.",
+    "terms": [
+      {
+        "id": "odd",
+        "semester_numbers": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "commencement": "2026-07-20",
+        "teaching_end": "2026-11-20",
+        "internal_examinations": {
+          "start": "2026-09-21",
+          "end": "2026-09-25"
+        },
+        "laboratory_examinations": {
+          "start": "2026-11-23",
+          "end": "2026-11-27"
+        },
+        "end_semester_examinations": {
+          "start": "2026-11-30",
+          "end": "2026-12-11"
+        },
+        "semester_break": {
+          "start": "2026-12-12",
+          "end": "2027-01-10"
+        },
+        "milestones": [
+          {
+            "id": "odd_registration",
+            "name": "Course registration closes",
+            "date": "2026-07-24"
+          },
+          {
+            "id": "capstone_i_proposal",
+            "name": "Capstone Project I proposal review",
+            "date": "2026-08-14",
+            "course_code": "HCE-CSE706"
+          },
+          {
+            "id": "odd_records",
+            "name": "Laboratory records and coursework due",
+            "date": "2026-11-20"
+          }
+        ],
+        "course_examinations": {}
+      },
+      {
+        "id": "even",
+        "semester_numbers": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "commencement": "2027-01-11",
+        "teaching_end": "2027-04-23",
+        "internal_examinations": {
+          "start": "2027-03-01",
+          "end": "2027-03-05"
+        },
+        "laboratory_examinations": {
+          "start": "2027-04-26",
+          "end": "2027-04-30"
+        },
+        "end_semester_examinations": {
+          "start": "2027-05-03",
+          "end": "2027-05-14"
+        },
+        "semester_break": {
+          "start": "2027-05-15",
+          "end": "2027-07-18"
+        },
+        "milestones": [
+          {
+            "id": "even_registration",
+            "name": "Course registration closes",
+            "date": "2027-01-15"
+          },
+          {
+            "id": "capstone_ii_review",
+            "name": "Capstone Project II progress review",
+            "date": "2027-03-19",
+            "course_code": "HCE-CSE805"
+          },
+          {
+            "id": "even_records",
+            "name": "Laboratory records and coursework due",
+            "date": "2027-04-23"
+          }
+        ],
+        "course_examinations": {
+          "HCE-CSE603": "2027-05-07"
+        }
+      }
+    ],
+    "scheduling_rule": "Only explicitly listed course dates are fixed. Other course examinations fall within the relevant term window; exact dates remain unspecified."
+  },
+  "laboratory_policy": {
+    "attendance_policy_ref": "/attendance_policy",
+    "attendance_rule": "Identical to the general per-course attendance rule; no separate laboratory threshold.",
+    "assessment_scheme_ref": "/examination/schemes/course_standard",
+    "record_submission": "Submit a dated record for each assigned experiment, including inputs, method, observations and conclusion, by the term's records milestone.",
+    "experiment_completion": "Complete every assigned experiment before the end-semester practical; the experiment list will be defined in later laboratory documents.",
+    "demonstration": "Demonstrate working results and explain the method during the practical viva; project labs also demonstrate their final artifact.",
+    "missing_work_rule": "Incomplete records or experiments affect continuous coursework marks; they do not introduce a separate examination eligibility threshold.",
+    "safety_and_discipline": [
+      "Use only instructor-approved datasets and software.",
+      "Do not share passwords or include personal data in experiments.",
+      "Handle equipment responsibly and report faults.",
+      "Acknowledge collaboration and submit your own explanation of results."
+    ]
+  },
+  "placement_policy": {
+    "scope": "Fictional institution-level preparation and recruitment registration only; no employer-specific claims.",
+    "preparation_registration": "Students in Semesters 5 through 8 may register for placement preparation, including students with pending courses.",
+    "recruitment_eligibility": {
+      "eligible_semesters": [
+        7,
+        8
+      ],
+      "minimum_cgpa": 6.0,
+      "maximum_pending_courses": 0,
+      "required_materials": [
+        "Updated resume",
+        "Completed academic record",
+        "Completed preparation orientation"
+      ]
+    },
+    "support": [
+      "Resume clinic",
+      "Aptitude practice",
+      "Mock technical interview"
+    ],
+    "contact_role": "Department placement coordinator",
+    "guarantee": "Preparation or eligibility does not guarantee an interview, internship or job."
+  },
+  "nlp_topic_taxonomy": [
+    {
+      "id": "text_preprocessing",
+      "name": "Text Preprocessing",
+      "aliases": [
+        "text cleaning",
+        "text normalization",
+        "pre-processing"
+      ],
+      "related_topic_ids": [
+        "tokenization"
+      ]
+    },
+    {
+      "id": "tokenization",
+      "name": "Tokenization",
+      "aliases": [
+        "token splitting",
+        "word segmentation"
+      ],
+      "related_topic_ids": [
+        "text_preprocessing"
+      ]
+    },
+    {
+      "id": "bag_of_words",
+      "name": "Bag of Words",
+      "aliases": [
+        "BoW",
+        "bag-of-words",
+        "count vector"
+      ],
+      "related_topic_ids": [
+        "tf_idf"
+      ]
+    },
+    {
+      "id": "n_grams",
+      "name": "N-Grams",
+      "aliases": [
+        "n-gram",
+        "bigram",
+        "trigram"
+      ],
+      "related_topic_ids": [
+        "language_models"
+      ]
+    },
+    {
+      "id": "tf_idf",
+      "name": "TF-IDF",
+      "aliases": [
+        "term frequency inverse document frequency",
+        "term-frequency inverse-document-frequency",
+        "term weighting"
+      ],
+      "related_topic_ids": [
+        "bag_of_words",
+        "cosine_similarity"
+      ]
+    },
+    {
+      "id": "cosine_similarity",
+      "name": "Cosine Similarity",
+      "aliases": [
+        "cosine score",
+        "vector angle similarity"
+      ],
+      "related_topic_ids": [
+        "semantic_similarity"
+      ]
+    },
+    {
+      "id": "word_embeddings",
+      "name": "Word Embeddings",
+      "aliases": [
+        "distributed representation",
+        "dense word representation",
+        "word vectors"
+      ],
+      "related_topic_ids": [
+        "word2vec"
+      ]
+    },
+    {
+      "id": "word2vec",
+      "name": "Word2Vec",
+      "aliases": [
+        "word2vec model",
+        "word2vec training"
+      ],
+      "related_topic_ids": [
+        "word_embeddings",
+        "cbow",
+        "skip_gram"
+      ]
+    },
+    {
+      "id": "cbow",
+      "name": "CBOW",
+      "aliases": [
+        "continuous bag of words",
+        "continuous bag-of-words"
+      ],
+      "related_topic_ids": [
+        "word2vec"
+      ]
+    },
+    {
+      "id": "skip_gram",
+      "name": "Skip-Gram",
+      "aliases": [
+        "skip gram",
+        "skip-gram model"
+      ],
+      "related_topic_ids": [
+        "word2vec"
+      ]
+    },
+    {
+      "id": "attention",
+      "name": "Attention",
+      "aliases": [
+        "attention mechanism",
+        "self-attention",
+        "multi-head attention"
+      ],
+      "related_topic_ids": [
+        "transformers"
+      ]
+    },
+    {
+      "id": "transformers",
+      "name": "Transformers",
+      "aliases": [
+        "transformer architecture",
+        "transformer model"
+      ],
+      "related_topic_ids": [
+        "attention",
+        "bert"
+      ]
+    },
+    {
+      "id": "bert",
+      "name": "BERT",
+      "aliases": [
+        "bidirectional encoder representations from transformers",
+        "BERT encoder"
+      ],
+      "related_topic_ids": [
+        "transformers",
+        "language_models"
+      ]
+    },
+    {
+      "id": "language_models",
+      "name": "Language Models",
+      "aliases": [
+        "language modeling",
+        "next-token prediction",
+        "masked language model",
+        "autoregressive language modeling",
+        "next-token language modeling",
+        "GPT",
+        "Generative Pre-trained Transformer"
+      ],
+      "related_topic_ids": [
+        "n_grams",
+        "bert",
+        "transformers"
+      ],
+      "subtopics": [
+        {
+          "name": "BERT",
+          "orientation": "encoder-oriented",
+          "objective": "masked language modeling",
+          "purpose": "contextual representation"
+        },
+        {
+          "name": "GPT",
+          "orientation": "decoder-oriented",
+          "objective": "autoregressive / next-token prediction",
+          "purpose": "text generation"
+        }
+      ]
+    },
+    {
+      "id": "semantic_similarity",
+      "name": "Semantic Similarity",
+      "aliases": [
+        "similarity of meaning",
+        "sentence similarity"
+      ],
+      "related_topic_ids": [
+        "cosine_similarity",
+        "semantic_search"
+      ]
+    },
+    {
+      "id": "semantic_search",
+      "name": "Semantic Search",
+      "aliases": [
+        "meaning-based retrieval",
+        "semantic retrieval"
+      ],
+      "related_topic_ids": [
+        "semantic_similarity"
+      ]
+    }
+  ],
+  "question_paper_design": {
+    "status": "generated_with_validated_targets",
+    "course_code": "HCE-CSE603",
+    "paper_ids": [
+      "NLP-P01",
+      "NLP-P02",
+      "NLP-P03",
+      "NLP-P04"
+    ],
+    "primary_topic_slots_per_paper": 12,
+    "counting_unit": "One primary topic per top-level question slot; no sub-question double counting. Secondary related topics may be annotated but do not count toward these targets.",
+    "assessment_scope": "Generated papers represent the 60-mark end-semester component: twelve compulsory five-mark top-level questions per paper.",
+    "topic_targets": [
+      {
+        "topic_id": "transformers",
+        "priority": "high",
+        "question_counts_by_paper": {
+          "NLP-P01": 2,
+          "NLP-P02": 2,
+          "NLP-P03": 2,
+          "NLP-P04": 2
+        }
+      },
+      {
+        "topic_id": "tf_idf",
+        "priority": "high",
+        "question_counts_by_paper": {
+          "NLP-P01": 2,
+          "NLP-P02": 2,
+          "NLP-P03": 2,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "word_embeddings",
+        "priority": "medium_high",
+        "question_counts_by_paper": {
+          "NLP-P01": 1,
+          "NLP-P02": 1,
+          "NLP-P03": 1,
+          "NLP-P04": 2
+        }
+      },
+      {
+        "topic_id": "attention",
+        "priority": "medium_high",
+        "question_counts_by_paper": {
+          "NLP-P01": 2,
+          "NLP-P02": 1,
+          "NLP-P03": 1,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "word2vec",
+        "priority": "medium_high",
+        "question_counts_by_paper": {
+          "NLP-P01": 1,
+          "NLP-P02": 1,
+          "NLP-P03": 1,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "bert",
+        "priority": "medium",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 1,
+          "NLP-P03": 1,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "text_preprocessing",
+        "priority": "medium",
+        "question_counts_by_paper": {
+          "NLP-P01": 1,
+          "NLP-P02": 1,
+          "NLP-P03": 0,
+          "NLP-P04": 0
+        }
+      },
+      {
+        "topic_id": "tokenization",
+        "priority": "medium",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 0,
+          "NLP-P03": 1,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "bag_of_words",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 1,
+          "NLP-P02": 1,
+          "NLP-P03": 0,
+          "NLP-P04": 0
+        }
+      },
+      {
+        "topic_id": "n_grams",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 0,
+          "NLP-P03": 1,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "cosine_similarity",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 1,
+          "NLP-P02": 1,
+          "NLP-P03": 0,
+          "NLP-P04": 0
+        }
+      },
+      {
+        "topic_id": "language_models",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 0,
+          "NLP-P03": 1,
+          "NLP-P04": 1
+        }
+      },
+      {
+        "topic_id": "cbow",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 1,
+          "NLP-P02": 0,
+          "NLP-P03": 0,
+          "NLP-P04": 0
+        }
+      },
+      {
+        "topic_id": "skip_gram",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 1,
+          "NLP-P03": 0,
+          "NLP-P04": 0
+        }
+      },
+      {
+        "topic_id": "semantic_similarity",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 0,
+          "NLP-P03": 1,
+          "NLP-P04": 0
+        }
+      },
+      {
+        "topic_id": "semantic_search",
+        "priority": "lower",
+        "question_counts_by_paper": {
+          "NLP-P01": 0,
+          "NLP-P02": 0,
+          "NLP-P03": 0,
+          "NLP-P04": 1
+        }
+      }
+    ],
+    "alias_rule": "Aliases are retrieval/matching cues, not guaranteed exact equivalents. Resolve overlap with context and assign one primary topic; Word2Vec, CBOW and Skip-Gram remain distinct taxonomy IDs.",
+    "validation_rule": "Future generated papers must match the per-paper primary-topic counts and be validated against actual annotated questions. Targets are design intent, not historical results."
+  },
+  "retrieval_design": {
+    "status": "source_documents_generated",
+    "source_categories": [
+      "attendance_policy",
+      "examination_regulations",
+      "course_syllabus",
+      "course_catalog",
+      "course_prerequisites",
+      "academic_calendar",
+      "laboratory_guidelines",
+      "placement_faq",
+      "question_papers",
+      "question_paper_analyzer"
+    ],
+    "reference_convention": "course IDs are canonical course codes; topic IDs are taxonomy IDs; fact IDs are RFC 6901 JSON pointers into this file. Expected references identify facts, not generated document IDs.",
+    "evaluation_rule": "Once documents exist, assign source IDs, verify support for each reference and record lexical/semantic rankings. Semantic contrast is a teaching hypothesis, not a promised ranking improvement.",
+    "benchmarks": [
+      {
+        "id": "RET-01",
+        "query": "What attendance percentage is required?",
+        "query_type": "direct_fact",
+        "expected_source_categories": [
+          "attendance_policy"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/attendance_policy/minimum_percent"
+          }
+        ],
+        "teaching_purpose": "Retrieve the single canonical attendance threshold.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-02",
+        "query": "Find the TF-IDF unit in the NLP syllabus.",
+        "query_type": "lexical_search",
+        "expected_source_categories": [
+          "course_syllabus"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE603"
+          },
+          {
+            "kind": "topic",
+            "id": "tf_idf"
+          }
+        ],
+        "teaching_purpose": "Establish an exact-term lexical retrieval baseline.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-03",
+        "query": "Which subject teaches computers to interpret human language?",
+        "query_type": "semantic_search",
+        "expected_source_categories": [
+          "course_syllabus",
+          "course_catalog"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE603"
+          }
+        ],
+        "teaching_purpose": "Retrieve the language-focused course from a paraphrased description.",
+        "semantic_lexical_contrast": true,
+        "source_phrasing_hint": "Use the canonical NLP description about computational methods for processing, understanding and generating human language; do not copy the query.",
+        "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+      },
+      {
+        "id": "RET-04",
+        "query": "How much classroom presence do I need to sit my finals?",
+        "query_type": "semantic_search",
+        "expected_source_categories": [
+          "attendance_policy",
+          "examination_regulations"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/attendance_policy/minimum_percent"
+          },
+          {
+            "kind": "fact",
+            "id": "/examination/eligibility"
+          }
+        ],
+        "teaching_purpose": "Connect classroom presence and finals with attendance and examination eligibility.",
+        "semantic_lexical_contrast": true,
+        "source_phrasing_hint": "Describe attendance and end-semester examination eligibility using the canonical policy; keep the percentage numeric in the contract.",
+        "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+      },
+      {
+        "id": "RET-05",
+        "query": "Which class learns to predict outcomes from examples?",
+        "query_type": "semantic_search",
+        "expected_source_categories": [
+          "course_syllabus",
+          "course_catalog"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE502"
+          }
+        ],
+        "teaching_purpose": "Retrieve Machine Learning without the course title in the query.",
+        "semantic_lexical_contrast": true,
+        "source_phrasing_hint": "Use the Machine Learning description: data-driven methods, patterns and unseen observations.",
+        "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+      },
+      {
+        "id": "RET-06",
+        "query": "Where do connected devices learn the rules for exchanging messages?",
+        "query_type": "semantic_search",
+        "expected_source_categories": [
+          "course_syllabus",
+          "course_catalog"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE402"
+          }
+        ],
+        "teaching_purpose": "Discuss paraphrases and possible ambiguity in semantic retrieval.",
+        "semantic_lexical_contrast": true,
+        "source_phrasing_hint": "Use the Computer Networks description about protocols, layered architectures and exchanging data; avoid query wording.",
+        "semantic_rationale": "The query paraphrases the canonical concept using different terminology. Compare lexical rankings with semantic rankings; neither method is guaranteed to win."
+      },
+      {
+        "id": "RET-07",
+        "query": "What should I study before taking Deep Learning?",
+        "query_type": "direct_fact",
+        "expected_source_categories": [
+          "course_prerequisites",
+          "course_syllabus"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE701"
+          },
+          {
+            "kind": "course",
+            "id": "HCE-CSE502"
+          },
+          {
+            "kind": "course",
+            "id": "HCE-CSE404"
+          }
+        ],
+        "teaching_purpose": "Return all prerequisites, including Machine Learning and Linear Algebra for Computing.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-08",
+        "query": "How do Machine Learning and Natural Language Processing differ?",
+        "query_type": "comparison",
+        "expected_source_categories": [
+          "course_syllabus"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE502"
+          },
+          {
+            "kind": "course",
+            "id": "HCE-CSE603"
+          }
+        ],
+        "teaching_purpose": "Compare broad predictive learning with language-focused methods using both course descriptions.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-09",
+        "query": "When is the NLP examination and what topics are included?",
+        "query_type": "cross_document",
+        "expected_source_categories": [
+          "academic_calendar",
+          "course_syllabus"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/academic_calendar/terms/1/course_examinations/HCE-CSE603"
+          },
+          {
+            "kind": "course",
+            "id": "HCE-CSE603"
+          }
+        ],
+        "teaching_purpose": "Combine the specific NLP examination date with its five syllabus units.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-10",
+        "query": "When does Semester 6 begin?",
+        "query_type": "direct_fact",
+        "expected_source_categories": [
+          "academic_calendar"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/academic_calendar/terms/1/commencement"
+          }
+        ],
+        "teaching_purpose": "Map Semester 6 to the even-semester term.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-11",
+        "query": "When are laboratory examinations for Semester 6?",
+        "query_type": "direct_fact",
+        "expected_source_categories": [
+          "academic_calendar"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/academic_calendar/terms/1/laboratory_examinations"
+          }
+        ],
+        "teaching_purpose": "Retrieve a date range rather than inventing an individual lab date.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-12",
+        "query": "How is an NLP course evaluated and what is required to pass?",
+        "query_type": "direct_fact",
+        "expected_source_categories": [
+          "examination_regulations",
+          "course_syllabus"
+        ],
+        "expected_refs": [
+          {
+            "kind": "course",
+            "id": "HCE-CSE603"
+          },
+          {
+            "kind": "fact",
+            "id": "/examination/schemes/course_standard"
+          }
+        ],
+        "teaching_purpose": "Explain component weights and both pass conditions.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-13",
+        "query": "Summarize what I must submit and demonstrate in a laboratory.",
+        "query_type": "summarization",
+        "expected_source_categories": [
+          "laboratory_guidelines"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/laboratory_policy/record_submission"
+          },
+          {
+            "kind": "fact",
+            "id": "/laboratory_policy/experiment_completion"
+          },
+          {
+            "kind": "fact",
+            "id": "/laboratory_policy/demonstration"
+          }
+        ],
+        "teaching_purpose": "Summarize several requirements without introducing extra conditions.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-14",
+        "query": "Which NLP topics appeared most frequently in previous examinations?",
+        "query_type": "question_paper_analysis",
+        "expected_source_categories": [
+          "question_papers",
+          "question_paper_analyzer"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/question_paper_design/topic_targets"
+          },
+          {
+            "kind": "topic",
+            "id": "transformers"
+          },
+          {
+            "kind": "topic",
+            "id": "tf_idf"
+          }
+        ],
+        "teaching_purpose": "After papers are generated, compute actual counts and compare with targets. Targets alone are not observed historical evidence.",
+        "semantic_lexical_contrast": false
+      },
+      {
+        "id": "RET-15",
+        "query": "Can I register for placement preparation if I have a pending course?",
+        "query_type": "direct_fact",
+        "expected_source_categories": [
+          "placement_faq"
+        ],
+        "expected_refs": [
+          {
+            "kind": "fact",
+            "id": "/placement_policy/preparation_registration"
+          },
+          {
+            "kind": "fact",
+            "id": "/placement_policy/recruitment_eligibility"
+          }
+        ],
+        "teaching_purpose": "Distinguish preparation access from recruitment eligibility.",
+        "semantic_lexical_contrast": false
+      }
+    ]
+  }
+}
